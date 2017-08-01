@@ -1750,6 +1750,9 @@ nav {
   color: #172326;
   font-size: 18px;
 }
+.table-top table td.resettdW {
+  white-space: nowrap;
+}
 .table-top table .pricetr td {
   font-size: 27px;
 }
@@ -2587,6 +2590,9 @@ nav {
     padding: 52px 8px;
     font-size: 16px;
   }
+  .table-top table td.resettdW {
+    white-space: normal;
+  }
   /*模块1*/
   #pagination1 {
     bottom: 53px;
@@ -2824,6 +2830,9 @@ nav {
   .table-top table td {
     padding: 52px 8px;
     font-size: 16px;
+  }
+  .table-top table td.resettdW {
+    white-space: normal;
   }
   .erweimaBox .log-bottom {
     width: 200px;
@@ -3065,6 +3074,9 @@ nav {
     padding: 52px 8px;
     font-size: 16px;
   }
+  .table-top table td.resettdW {
+    white-space: normal;
+  }
   /*模块1*/
   #pagination1 {
     bottom: 57px;
@@ -3289,6 +3301,9 @@ nav {
   .table-top table td {
     padding: 52px 29px;
     font-size: 18px;
+  }
+  .table-top table td.resettdW {
+    white-space: nowrap;
   }
   /*模块1*/
   .index-banner {
