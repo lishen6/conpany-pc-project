@@ -2503,6 +2503,13 @@ nav {
   height: 11px;
 }
 @media screen and (max-width: 1024px) {
+  .download-div-right .resetW {
+    width: 375px;
+  }
+  .flex-row4 > div > div > div {
+    width: 120px;
+    height: 120px;
+  }
   .maininfo > div {
     padding: 25px 35px;
   }
@@ -2728,6 +2735,12 @@ nav {
   .xinyong-box > div h4 {
     font-size: 37px;
   }
+  .xinyong-box > div h4.resetf {
+    font-size: 27px;
+  }
+  .xinyong-box > div h4.resetf i {
+    font-size: 60px;
+  }
   .xinyong-box > div div {
     font-size: 18px;
   }
@@ -2736,6 +2749,13 @@ nav {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .download-div-right .resetW {
+    width: 375px;
+  }
+  .flex-row4 > div > div > div {
+    width: 130px;
+    height: 130px;
+  }
   .maininfo > div {
     padding: 25px 35px;
   }
@@ -2958,6 +2978,12 @@ nav {
   .xinyong-box > div h4 {
     font-size: 37px;
   }
+  .xinyong-box > div h4.resetf {
+    font-size: 27px;
+  }
+  .xinyong-box > div h4.resetf i {
+    font-size: 60px;
+  }
   .xinyong-box > div div {
     font-size: 18px;
   }
@@ -2968,6 +2994,10 @@ nav {
 @media screen and (min-width: 1100px) and (max-width: 1220px) {
   .p-font-18 {
     font-size: 17px;
+  }
+  .flex-row4 > div > div > div {
+    width: 140px;
+    height: 140px;
   }
   .maininfo > div {
     padding: 25px 35px;
@@ -3041,6 +3071,9 @@ nav {
   }
   .xinyong-box > div h4 {
     font-size: 44px;
+  }
+  .xinyong-box > div h4.resetf {
+    font-size: 27px;
   }
   .xinyong-box > div div {
     font-size: 22px;
@@ -3189,6 +3222,10 @@ nav {
 @media screen and (min-width: 1220px) and (max-width: 1280px) {
   .p-font-18 {
     font-size: 17px;
+  }
+  .flex-row4 > div > div > div {
+    width: 145px;
+    height: 145px;
   }
   .maininfo > div {
     padding: 25px 35px;
@@ -3382,11 +3419,21 @@ nav {
   .xinyong-box > div h4 {
     font-size: 46px;
   }
+  .xinyong-box > div h4.resetf {
+    font-size: 39px;
+  }
+  .xinyong-box > div h4.resetf i {
+    font-size: 66px;
+  }
   .xinyong-box > div div {
     font-size: 24px;
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1360px) {
+  .flex-row4 > div > div > div {
+    width: 150px;
+    height: 150px;
+  }
   .maininfo > div {
     padding: 25px 35px;
   }
