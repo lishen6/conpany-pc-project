@@ -71,12 +71,11 @@ $(function(){
     })
    
       var mySwiper2 = new Swiper ('#swiper-body4', {
-    loop: true,
-    
-    // 如果需要前进后退按钮
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev'
-  })
+	    loop: true,	    
+	    // 如果需要前进后退按钮
+	    nextButton: '.swiper-button-next',
+	    prevButton: '.swiper-button-prev'
+	  })
       //新闻
   var json = [
      {title:'“数据沥金·产融结合”文沥发布2017年银企集成金融科技方案',info:'【中国，2017年6月9日】上海文沥信息技术有限公司（以下简称“文沥”或“Welinkdata”）于6月4日与中国贸易金融网合作举办了“数据沥金·产融结合”银企沙龙对接交流会上海站活动。来自招商银行、交通银行、上海银行、泺亨（中国）和孚厘金融等多家金融机构以及万昌医药、科天中国等企业的领导和业内专家齐聚一堂，就政策解读、银企集成、风控管理和大数据征信等话题进行了深入探讨和交流。'},
