@@ -4169,10 +4169,40 @@ nav {
 }
 .service-block22.service-bottom-seset {
   padding: 45px 35px;
+  margin: 0 auto;
 }
 .service-block22.service-bottom-seset p {
   font-size: 16px;
   line-height: 32px;
+}
+.table-top.table-top1-reset tr th {
+  padding: 15px 8px;
+}
+.table-top.table-top1-reset tr td {
+  padding: 15px 8px;
+  font-size: 16px;
+}
+.table-top.table-top1-reset tr.pricetr td {
+  font-size: 24px;
+}
+.table-top.table-top1-reset tr.pricetr td span {
+  font-size: 36px;
+}
+.table-top.table-top2-reset {
+  margin-top: 38px;
+}
+.table-top.table-top2-reset table tr th {
+  padding: 15px 8px;
+}
+.table-top.table-top2-reset table tr td {
+  padding: 15px 8px;
+  font-size: 16px;
+}
+.table-top.table-top2-reset table tr.pricetr td {
+  font-size: 24px;
+}
+.table-top.table-top2-reset table tr.pricetr td span {
+  font-size: 36px;
 }
 /* 最终调样式 */
 
