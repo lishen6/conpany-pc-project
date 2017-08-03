@@ -74,7 +74,22 @@ $(function(){
 	    loop: true,	    
 	    // 如果需要前进后退按钮
 	    nextButton: '.swiper-button-next',
-	    prevButton: '.swiper-button-prev'
+	    prevButton: '.swiper-button-prev',
+	    onTransitionEnd: function(swiper){
+	      //console.log(swiper.activeIndex); //切换结束时，告诉我现在是第几个slide
+	      $(".index-body4-active span").each(function(){
+	      	 $(this).removeClass("active");	      	 
+	      })
+	      switch(swiper.activeIndex){
+	      	 	case 0: $(".index-body4-active").children('span').eq(4).addClass('active'); break;
+	      	 	case 1: $(".index-body4-active").children('span').eq(0).addClass('active'); break;
+	      	 	case 2: $(".index-body4-active").children('span').eq(1).addClass('active'); break;
+	      	 	case 3: $(".index-body4-active").children('span').eq(2).addClass('active'); break;
+	      	 	case 4: $(".index-body4-active").children('span').eq(3).addClass('active'); break;
+	      	 	case 5: $(".index-body4-active").children('span').eq(4).addClass('active'); break;
+	      	 	case 6: $(".index-body4-active").children('span').eq(0).addClass('active'); break;
+	      	 }
+	    }
 	  })
       //新闻
   var json = [

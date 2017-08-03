@@ -1046,6 +1046,18 @@ nav {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.download-bottom-flex.download-reset2 li {
+  margin-bottom: 80px;
+}
+.download-bottom-flex.download-reset2 li img {
+  width: 51px;
+}
+.download-bottom-flex.download-reset2 li p {
+  font-size: 24px;
+}
+.download-bottom-flex.download-reset2 li span {
+  font-size: 16px;
+}
 .about-box {
   width: 100%;
   overflow: hidden;
@@ -1981,10 +1993,24 @@ nav {
   padding-bottom: 45px;
 }
 .download-bottom-flex.borderNone li img {
-  width: 108px;
+  width: 85px;
 }
 .download-bottom-flex.borderNone li span {
   margin: 0 auto;
+}
+.download-bottom-flex.shujuanquan-resetheight.shujuanquan-resetheightli li {
+  padding-bottom: 40px;
+}
+.download-bottom-flex.shujuanquan-resetheight li h6 {
+  font-size: 24px;
+  color: #333;
+  font-weight: normal;
+}
+.download-bottom-flex.shujuanquan-resetheight li p {
+  font-size: 24px;
+}
+.download-bottom-flex.shujuanquan-resetheight li span {
+  font-size: 16px;
 }
 .about-box.suggest h4 {
   margin-bottom: 0;
@@ -4058,6 +4084,95 @@ nav {
 }
 .user-bottom.user-bottom-reset .user-bottom-load {
   top: 100px;
+}
+.xinyong-box.xinyongrongzhi-reset > div {
+  width: 32%;
+  margin: 10px 0 50px 12.667%;
+  text-align: center;
+}
+.xinyong-box.xinyongrongzhi-reset > div > h4 {
+  font-size: 24px;
+  height: 160px;
+  line-height: 170px;
+}
+.xinyong-box.xinyongrongzhi-reset > div > h4 i {
+  font-size: 45px;
+}
+.xinyong-box.xinyongrongzhi-reset > div > h4 em {
+  font-size: 47px;
+  padding: 17px;
+}
+.xinyong-box.xinyongrongzhi-reset > div > div {
+  font-size: 16px;
+  padding-left: 89px;
+}
+.xinyong-div.xinyongrongzhi-reset li {
+  margin-top: -52px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div {
+  height: 752px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .title-xinyong {
+  font-size: 36px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .zaixian-icon1 {
+  width: 85px;
+  height: 85px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div > p {
+  font-size: 24px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div > h3 {
+  font-size: 18px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .jianjiaoBg {
+  margin-bottom: 15px;
+  height: 80px;
+  line-height: 65px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step-xinyong {
+  font-size: 16px;
+  line-height: 27px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step-xinyong i {
+  margin: 10px 0 0 -10px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step-xinyong.stepNum1 {
+  background-size: auto 70%;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step-xinyong.stepNum2 {
+  background-size: auto 70%;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step-xinyong.stepNum3 {
+  background-size: auto 70%;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step2-xinyong {
+  height: 35px;
+}
+.xinyong-div.xinyongrongzhi-reset li > div .step2-xinyong i {
+  margin: -20px auto 65%;
+}
+.userBlock2-ul.service-reset li {
+  padding-bottom: 12px;
+}
+.userBlock2-ul.service-reset li img {
+  height: auto;
+}
+.userBlock2-ul.service-reset li p {
+  font-size: 16px;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.userBlock2-ul.service-reset li p span {
+  font-size: 24px;
+}
+.service-block22.service-bottom-seset {
+  padding: 45px 35px;
+}
+.service-block22.service-bottom-seset p {
+  font-size: 16px;
+  line-height: 32px;
 }
 /* 最终调样式 */
 
