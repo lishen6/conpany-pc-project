@@ -30,10 +30,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://121.196.195.153/WEBSYB_QD/wbCelebrityManuscript.git"
-  },
-  "author": "tonyxiao",
+  "author": "larry",
   "license": "ISC"
 }
