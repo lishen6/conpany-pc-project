@@ -61,7 +61,7 @@ body, html{  }
     margin:0 auto;
 }
 .font-number-1{
-    font-size: 80px;
+    font-size: 55px;
     color: #29ABE1;
 }
 /*主页 最大容器*/
@@ -311,20 +311,23 @@ nav{
 /*主页 推广信息*/
 .index-info{
     width: 100%;
-    height: 960px;
+//  height: 960px;
     background: #fff;
     position: relative;
     z-index: 9;
+    &.index-info-reset{
+//      height: 720px;
+    }
 }
 .index-info-content{
     width: 100%;
-    height: 960px;
+//  height: 960px;
 }
 .info-title-1{
-    font-size: 50px;
+    font-size: 45px;
     color: #000;
     line-height: 50px;
-    margin-top: 91px;
+    margin-top: 85px;
     text-align: center;
 }
 .info-title-2{
@@ -333,15 +336,37 @@ nav{
     margin-top:34px;
 }
 .info-bar{
-    height: 741px;
-    width: 1210px;
+    height: 460px;    
     background: #fff;
-    margin:0 auto;
+    margin:0 auto 50px;
+    &.index-reset-info-bar{
+        width: 100%;
+        height: auto;
+        .info-bar-ul{
+            height: 430px;
+            margin-top: 34px;
+            padding: 0 2%;
+            box-sizing: border-box;
+            li{
+                width: 21%;
+                margin: 0 2%;
+                .p-font-31{
+                    font-size: 24px;
+                    line-height: 45px;
+                    margin:10px 0 20px;
+                }
+                .p-font-18{
+                    font-size: 16px;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
 }
 .info-bar-ul{
     height:515px;
     width: 100%;
-    margin-top:90px;
+    margin-top: 34px;
 }
 .info-bar-ul li{
     box-sizing: border-box;
@@ -358,12 +383,12 @@ nav{
 }
 .li-img{
     width: 100%;
-    height: 176px;
+    height: 85px;
     text-align: center;
 }
 .li-img img{
-    height: 176px;
-    width: 176px;
+    height: 85px;
+    width: 85px;
     display: inline-block;
 }
 .p-font-31{
@@ -406,7 +431,43 @@ nav{
     background: #eee;
     position: relative;
     z-index: 10;
-    top: -90px;
+//  top: -90px;
+    &.index-tab2-reset22{
+        height: 680px;
+        .index-tab2-left{
+            padding-top: 4%;
+            box-sizing: border-box;
+            .tab2-box1{
+                margin-top: 0;
+                height: 70px;
+            }
+            .tab2-p1{
+                margin-top: 25px;
+            }
+            .tab2-box2{
+                line-height: 45px;
+                margin-bottom: 12px;
+                .tab2-p2{
+                    line-height: 36px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+                .tab2-a{
+                    margin-top: 0;
+                }
+            }
+            .tab2-box1-p1,.tab2-p-title{
+                font-size: 24px;
+            }
+            .tab2-box1-p2,.tab2-p-content,.tab2-a{
+                font-size: 16px;
+            }
+        }
+        .index-tab2-right{
+            background: url(../img/headerimg4.jpg) no-repeat center center;
+            background-size: 100% 100%;
+        }
+    }
 }
 .index-tab2-left{
     width: 50%;
@@ -481,11 +542,21 @@ nav{
 
 
 .index-tab3{
-    height: 310px;
+//  height: 310px;
     width: 100%;
     margin:0 auto;
     background: #fff;
     text-align: center;
+    &.index-tab3-reset{
+        padding-top: 30px;
+        .p-font-48{
+            font-size: 45px;
+            line-height: 70px;
+        }
+        .p-line{
+            margin: 38px auto 50px;
+        }
+    }
 }
 .p-font-48{
     text-align: center;
@@ -575,9 +646,22 @@ nav{
     margin-top:32px;
 }
 .index-tab5{
-    height: 331px;
+    height: 155px;
     width: 100%;
     margin:0 auto;
+    &.index-tab5-reset{
+        .tab5-image{
+            width: 85px;
+            height: 85px;
+        }
+        .tab5-font{
+            font-size: 24px;
+        }
+        .tab5-info{
+            margin-top: 0;
+            height: 100%;
+        }
+    }
 }
 .tab5-child{
     height: 100%;
@@ -621,9 +705,29 @@ nav{
     margin-left: 20px;
 }
 .index-tab6{
-    height: 700px;
+//  height: 700px;
     width: 100%;
     background: #fff;
+    &.index-tab6-reset{
+        padding-top: 30px;
+        .tab6-title{
+            font-size: 45px;
+            line-height: 70px;
+            margin-top: 0;
+        }
+        .p-line{
+            margin: 38px auto 50px;
+        }
+        .body4-title{
+            height: 70px;
+            >span{
+                padding: 0px 26px;
+            }
+        }
+        .body4-swpier-p>span{
+            font-size: 24px;
+        }
+    }
 }
 .tab6-title{
     font-size: 48px;
@@ -726,7 +830,24 @@ nav{
 }
 
 .body5{
-	
+	&.body5-reset{
+	    .body5-content{
+	        >h4{
+	            font-size: 24px;
+	            line-height: 70px;
+	            margin-top: 20px;
+	        }
+	        p{
+	            font-size: 16px;
+	        }
+	        a{
+	            margin: 12px 0 25px;
+	        }
+	    }
+	    .body5-flex-div{
+	        padding: 35px 0;
+	    }
+	}
 }
 .body5-content{
 	width: 100%;
