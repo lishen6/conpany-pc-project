@@ -128,10 +128,15 @@
 /* iconfont */
 html,
 body {
-  font-size: 100%;
   font-family: 'Microsoft YaHei', '微软雅黑', '宋体', 'SimSun', STHeiti, MingLiu, Arial, sans-serif;
   height: 100%;
-  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 #pagination1 {
   position: absolute;
@@ -854,7 +859,7 @@ nav {
   height: 70px;
 }
 .index-tab6.index-tab6-reset .body4-title > span {
-  padding: 0px 26px;
+  padding: 0px 15px;
 }
 .index-tab6.index-tab6-reset .body4-swpier-p > span {
   font-size: 24px;
@@ -2131,6 +2136,12 @@ nav {
 .about-box.suggest .suggestBox {
   border: none;
 }
+.about-box.suggest .suggestBox.suggestBox-reset ul > li {
+  font-size: 16px;
+}
+.about-box.suggest .suggestBox.suggestBox-reset ul > li span {
+  font-size: 24px;
+}
 .suggest-left {
   width: 50%;
   float: left;
@@ -2796,7 +2807,20 @@ nav {
     margin-left: 55px;
   }
   .index-banner {
-    height: 623px;
+    height: 611px;
+  }
+  .index-banner.index-banner-reset .dislog {
+    height: 365px;
+  }
+  .index-banner.index-banner-reset .dislog .btn-download,
+  .index-banner.index-banner-reset .dislog .btn-zhuce {
+    bottom: 30px;
+  }
+  .index-banner.index-banner-reset .dislog .dialog-line {
+    margin: 20px auto 25px;
+  }
+  .index-banner.index-banner-reset .dislog .dialog-line.dialog-line-baner3 {
+    margin: 8px auto 16px;
   }
   .index-banner.useone-baner {
     height: 406px;
