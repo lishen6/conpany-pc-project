@@ -141,7 +141,7 @@ body {
 #pagination1 {
   position: absolute;
   z-index: 2999990;
-  bottom: 72px;
+  bottom: 74px;
   width: 100%;
   text-align: center;
 }
@@ -210,7 +210,7 @@ li {
 /*轮播*/
 .index-banner {
   width: 100%;
-  height: 800px;
+  height: 700px;
   overflow: hidden;
   position: relative;
   z-index: 10;
@@ -323,11 +323,11 @@ nav {
 	margin: 0 auto;
 }*/
 .dislog {
-  height: 460px;
+  height: 435px;
   width: 880px;
   position: absolute;
   right: 130px;
-  top: 225px;
+  top: 135px;
   background: rgba(41, 171, 226, 0.5);
   z-index: 9999;
 }
@@ -385,7 +385,7 @@ nav {
   color: #fff;
   line-height: 84px;
   position: absolute;
-  bottom: 65px;
+  bottom: 40px;
   left: 80px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -399,7 +399,7 @@ nav {
   color: #fff;
   line-height: 84px;
   position: absolute;
-  bottom: 65px;
+  bottom: 40px;
   right: 80px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -598,7 +598,7 @@ nav {
   font-size: 16px;
 }
 .index-tab2.index-tab2-reset22 .index-tab2-right {
-  background: url(../img/headerimg4.jpg) no-repeat center center;
+  background: url(../img/headerimg44.jpg) no-repeat center center;
   background-size: 100% 100%;
 }
 .index-tab2-left {
@@ -670,7 +670,7 @@ nav {
   width: 50%;
   height: 100%;
   float: right;
-  background: url("../img/headerimg4.jpg") no-repeat center center;
+  background: url("../img/headerimg44.jpg") no-repeat center center;
   background-size: auto 100%;
 }
 .index-tab3 {
@@ -731,16 +731,16 @@ nav {
   text-align: center;
 }
 .index-tab4.index-tab4-index1 {
-  background: url(../img/heng11_01.jpg) no-repeat;
-  background-size: 100% 100%;
+  background: url(../img/heng11_01.jpg) no-repeat center;
+  background-size: auto 540px;
 }
 .index-tab4.index-tab4-index2 {
-  background: url(../img/heng22_01.jpg) no-repeat;
-  background-size: 100% 100%;
+  background: url(../img/heng22_01.jpg) no-repeat center;
+  background-size: auto 540px;
 }
 .index-tab4.index-tab4-index3 {
-  background: url(../img/heng33_01.jpg) no-repeat;
-  background-size: 100% 100%;
+  background: url(../img/heng33_01.jpg) no-repeat center;
+  background-size: auto 540px;
 }
 .hide {
   display: none!important;
@@ -1076,7 +1076,7 @@ nav {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 386px;
+  height: 370px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -1087,7 +1087,7 @@ nav {
   display: block;
 }
 .download-div-right {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 .download-div-right a {
   display: block;
@@ -2386,7 +2386,7 @@ nav {
 }
 .login-box div {
   width: 560px;
-  height: 80px;
+  height: 70px;
   position: relative;
   padding: 0 22px;
   border: 1px solid #888888;
@@ -2401,11 +2401,11 @@ nav {
   width: 56px;
   height: 36px;
   float: left;
-  margin-top: 22px;
+  margin-top: 17px;
 }
 .login-box div input {
   width: 420px;
-  height: 78px;
+  height: 68px;
   float: left;
   padding-left: 28px;
   -webkit-box-sizing: border-box;
@@ -2425,7 +2425,7 @@ nav {
 }
 .login-box > button {
   width: 560px;
-  height: 80px;
+  height: 70px;
   -webkit-border-radius: 10px;
           border-radius: 10px;
   background: #65a9df;
@@ -2438,7 +2438,7 @@ nav {
 }
 .login-box h4 {
   width: 560px;
-  height: 80px;
+  height: 70px;
   font-size: 23px;
   color: #595959;
   text-align: center;
@@ -2814,7 +2814,7 @@ nav {
   }
   .index-banner.index-banner-reset .dislog .btn-download,
   .index-banner.index-banner-reset .dislog .btn-zhuce {
-    bottom: 30px;
+    bottom: 27px;
   }
   .index-banner.index-banner-reset .dislog .dialog-line {
     margin: 20px auto 25px;
@@ -3069,10 +3069,23 @@ nav {
     margin-left: 55px;
   }
   .index-banner {
-    height: 623px;
+    height: 611px;
+  }
+  .index-banner.index-banner-reset .dislog {
+    height: 365px;
+  }
+  .index-banner.index-banner-reset .dislog .btn-download,
+  .index-banner.index-banner-reset .dislog .btn-zhuce {
+    bottom: 27px;
+  }
+  .index-banner.index-banner-reset .dislog .dialog-line {
+    margin: 20px auto 25px;
+  }
+  .index-banner.index-banner-reset .dislog .dialog-line.dialog-line-baner3 {
+    margin: 8px auto 16px;
   }
   .index-banner.useone-baner {
-    height: 417px;
+    height: 406px;
   }
   .index-banner.useone-baner .dislog {
     height: 241px;
@@ -3086,7 +3099,7 @@ nav {
   .userblock2-top {
     font-size: 44px;
     height: 122px;
-    width: 429px;
+    width: 419px;
     text-align: center;
     line-height: 119px;
     color: #29abe2;
@@ -3095,12 +3108,6 @@ nav {
     border-bottom: 10px solid #000;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  .dislog {
-    width: 660px;
-    height: 417px;
-    top: 130px;
-    right: 70px;
   }
   .banner-dialog-p1 {
     font-size: 40px;
@@ -3114,6 +3121,12 @@ nav {
     color: #fff;
     text-align: center;
     margin-top: -23px;
+  }
+  .dislog {
+    width: 660px;
+    height: 417px;
+    top: 130px;
+    right: 70px;
   }
   .dislog-div {
     font-size: 42px;
@@ -3349,7 +3362,7 @@ nav {
   }
   .dislog {
     width: 760px;
-    height: 417px;
+    height: 400px;
     top: 130px;
     right: 70px;
   }
@@ -3379,6 +3392,7 @@ nav {
     height: 75px;
     font-size: 24px;
     line-height: 72px;
+    bottom: 32px;
   }
   .dislog.dislogcenter {
     left: 50%;
@@ -3508,13 +3522,13 @@ nav {
   }
   /*模块1*/
   .index-banner {
-    height: 738px;
+    height: 623px;
   }
   .index-banner.useone-baner {
-    height: 498px;
+    height: 475px;
   }
   .index-banner.useone-baner .dislog {
-    height: 282px;
+    height: 261px;
     width: 556px;
     position: absolute;
     right: 20px;
@@ -3522,40 +3536,50 @@ nav {
     z-index: 9999;
     padding: 12px 41px;
   }
-  .userblock2-ul li p {
-    font-size: 18px;
-  }
   .banner-dialog-p1 {
     font-size: 41px;
     color: #fff;
   }
   .banner-dialog-p1 span {
-    font-size: 51px;
+    font-size: 48px;
   }
   .banner-dialog-p2 {
     font-size: 21px;
     color: #fff;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -18px;
+  }
+  .userblock2-top {
+    font-size: 44px;
+    height: 132px;
+    width: 429px;
+    text-align: center;
+    line-height: 129px;
+    color: #29abe2;
+    margin: -161px auto 0;
+    background: #fff;
+    border-bottom: 10px solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
   .dislog {
-    width: 830px;
-    height: 420px;
-    top: 175px;
-    right: 100px;
+    width: 760px;
+    height: 400px;
+    top: 130px;
+    right: 70px;
   }
   .dislog-div {
-    font-size: 50px;
-    margin-top: 30px;
+    font-size: 45px;
+    margin-top: 27px;
   }
   .dialog-p1 {
-    font-size: 69px;
+    font-size: 65px;
   }
   .btn-zhuce {
     line-height: 71px;
-    background: url(../img/free.png) no-repeat 44px center;
+    background: url(../img/free.png) no-repeat 40px center;
     background-size: 20px 20px;
-    padding-left: 78px;
+    padding-left: 70px;
   }
   .btn-download {
     font-size: 21px;
@@ -3566,11 +3590,11 @@ nav {
   }
   .btn-zhuce,
   .btn-download {
-    width: 288px;
-    height: 77px;
-    font-size: 27px;
+    width: 279px;
+    height: 75px;
+    font-size: 24px;
     line-height: 72px;
-    bottom: 56px;
+    bottom: 32px;
   }
   .dislog.dislogcenter {
     left: 50%;
@@ -3698,11 +3722,14 @@ nav {
     font-size: 40px;
   }
   /*模块1*/
+  .index-banner {
+    height: 623px;
+  }
   .index-banner.useone-baner {
-    height: 525px;
+    height: 510px;
   }
   .index-banner.useone-baner .dislog {
-    height: 282px;
+    height: 261px;
     width: 556px;
     position: absolute;
     right: 20px;
@@ -3710,25 +3737,72 @@ nav {
     z-index: 9999;
     padding: 12px 41px;
   }
-  .userblock2-top {
-    font-size: 44px;
-    height: 132px;
-    width: 439px;
-    text-align: center;
-    line-height: 129px;
-  }
   .banner-dialog-p1 {
     font-size: 41px;
     color: #fff;
   }
   .banner-dialog-p1 span {
-    font-size: 51px;
+    font-size: 48px;
   }
   .banner-dialog-p2 {
     font-size: 21px;
     color: #fff;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -18px;
+  }
+  .userblock2-top {
+    font-size: 44px;
+    height: 132px;
+    width: 429px;
+    text-align: center;
+    line-height: 129px;
+    color: #29abe2;
+    margin: -161px auto 0;
+    background: #fff;
+    border-bottom: 10px solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .dislog {
+    width: 760px;
+    height: 400px;
+    top: 130px;
+    right: 70px;
+  }
+  .dislog-div {
+    font-size: 45px;
+    margin-top: 27px;
+  }
+  .dialog-p1 {
+    font-size: 65px;
+  }
+  .btn-zhuce {
+    line-height: 71px;
+    background: url(../img/free.png) no-repeat 40px center;
+    background-size: 20px 20px;
+    padding-left: 70px;
+  }
+  .btn-download {
+    font-size: 21px;
+    line-height: 71px;
+    background: #29abe2 url(../img/download.png) no-repeat 26px center;
+    background-size: 20px 20px;
+    padding-left: 55px;
+  }
+  .btn-zhuce,
+  .btn-download {
+    width: 279px;
+    height: 75px;
+    font-size: 24px;
+    line-height: 72px;
+    bottom: 32px;
+  }
+  .dislog.dislogcenter {
+    left: 50%;
+    margin-left: -330px;
+  }
+  .dislog.dislogleft {
+    left: 70px;
   }
   /*新闻部分*/
   .body5-flex-div {
@@ -3803,11 +3877,14 @@ nav {
     width: 86%;
   }
   /*模块1*/
+  .index-banner {
+    height: 623px;
+  }
   .index-banner.useone-baner {
-    height: 558px;
+    height: 540px;
   }
   .index-banner.useone-baner .dislog {
-    height: 282px;
+    height: 261px;
     width: 556px;
     position: absolute;
     right: 20px;
@@ -3815,25 +3892,73 @@ nav {
     z-index: 9999;
     padding: 12px 41px;
   }
-  .userblock2-top {
-    font-size: 44px;
-    height: 132px;
-    width: 439px;
-    text-align: center;
-    line-height: 129px;
-  }
   .banner-dialog-p1 {
     font-size: 41px;
     color: #fff;
   }
   .banner-dialog-p1 span {
-    font-size: 51px;
+    font-size: 48px;
   }
   .banner-dialog-p2 {
     font-size: 21px;
     color: #fff;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -18px;
+  }
+  .userblock2-top {
+    font-size: 44px;
+    height: 132px;
+    width: 429px;
+    text-align: center;
+    line-height: 129px;
+    color: #29abe2;
+    margin: -161px auto 0;
+    background: #fff;
+    border-bottom: 10px solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .dislog {
+    width: 760px;
+    height: 400px;
+    top: 130px;
+    right: 70px;
+  }
+  .dislog-div {
+    font-size: 45px;
+    margin-top: 27px;
+  }
+  .dialog-p1 {
+    font-size: 65px;
+  }
+  .btn-zhuce {
+    line-height: 71px;
+    background: url(../img/free.png) no-repeat 40px center;
+    background-size: 20px 20px;
+    padding-left: 70px;
+    bottom: 32px;
+  }
+  .btn-download {
+    font-size: 21px;
+    line-height: 71px;
+    background: #29abe2 url(../img/download.png) no-repeat 26px center;
+    background-size: 20px 20px;
+    padding-left: 55px;
+    bottom: 32px;
+  }
+  .btn-zhuce,
+  .btn-download {
+    width: 279px;
+    height: 75px;
+    font-size: 24px;
+    line-height: 72px;
+  }
+  .dislog.dislogcenter {
+    left: 50%;
+    margin-left: -330px;
+  }
+  .dislog.dislogleft {
+    left: 70px;
   }
   /*新闻部分*/
   .body5-flex-div {
@@ -3972,7 +4097,7 @@ nav {
   }
   /*模块1*/
   .index-banner.useone-baner {
-    height: 605px;
+    height: 620px;
   }
   .index-banner.useone-baner .dislog {
     height: 282px;
@@ -4062,8 +4187,22 @@ nav {
     background: url("../img/headerimg4.jpg") no-repeat center center;
     background-size: 100% 100%;
   }
+  .swiper-slide > .dislog {
+    height: 435px;
+  }
+  .swiper-slide > .dislog .btn-zhuce,
+  .swiper-slide > .dislog .btn-download {
+    bottom: 38px;
+  }
 }
 @media screen and (min-width: 1780px) {
+  .swiper-slide > .dislog {
+    height: 435px;
+  }
+  .swiper-slide > .dislog .btn-zhuce,
+  .swiper-slide > .dislog .btn-download {
+    bottom: 38px;
+  }
   .a-button {
     margin-top: 15px;
   }
@@ -4119,11 +4258,6 @@ nav {
     height: 735px;
   }
 }
-/*@media screen and ( max-width: 1028px) {
-    .body5-flex-div img{
-        width: 158px;
-    }
-}*/
 /* 首页 */
 @media screen and (max-width: 1080px) {
   .userBlock2 .price-block .userblock2-title.price-title-reset1 {
@@ -4244,7 +4378,7 @@ nav {
   height: 85px;
 }
 .xinyong-div.xinyongrongzhi-reset li > div > p {
-  font-size: 24px;
+  font-size: 22px;
   height: 56px;
 }
 .xinyong-div.xinyongrongzhi-reset li > div > h3 {
