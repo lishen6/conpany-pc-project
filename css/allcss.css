@@ -2425,6 +2425,19 @@ nav {
   right: -114px;
   cursor: pointer;
 }
+.login-box div select {
+  width: 410px;
+  height: 45px;
+  float: left;
+  padding-left: 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
 .login-box div.test-code2 {
   padding-left: 0;
 }
