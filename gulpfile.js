@@ -58,6 +58,6 @@ gulp.task('default', function() {
     });
     var reload = browserSync.reload;
     // watch所有位在根目录下的档案，一旦有更动，便进行重载
-    var watchConfig = ['css/**/*.css', 'js/**/*', 'img/**/*','*.html'];
+    var watchConfig = ['css/**/*.css', 'js/**/*', 'images/**/*','*.html'];
     gulp.watch(watchConfig, reload);
 });
