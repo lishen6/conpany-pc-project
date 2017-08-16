@@ -5,7 +5,7 @@
 html,
 body {
   font-size: 100%;
-  font-family: 'Microsoft YaHei', '微软雅黑', '宋体', 'SimSun', STHeiti, MingLiu, Arial, sans-serif;
+  font-family: 'PingFang SC', 'Microsoft YaHei', '微软雅黑', '宋体', 'SimSun', STHeiti, MingLiu, Arial, sans-serif;
   height: 100%;
   width: 100%;
   min-width: 1024px;
@@ -450,8 +450,32 @@ input[type="color"],
   font-size: 42px;
   color: #2c2c2c;
   font-weight: normal;
-  margin-top: -28px;
+  margin: -28px auto 0;
   text-align: center;
+}
+.index-block2-ul li h3.block2-img1 {
+  width: 136px;
+  height: 41px;
+  background: url(../img/block2-img1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.index-block2-ul li h3.block2-img2 {
+  width: 155px;
+  height: 41px;
+  background: url(../img/block2-img2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.index-block2-ul li h3.block2-img3 {
+  width: 111px;
+  height: 41px;
+  background: url(../img/block2-img3.png) no-repeat;
+  background-size: 100% 100%;
+}
+.index-block2-ul li h3.block2-img4 {
+  width: 81px;
+  height: 41px;
+  background: url(../img/block2-img4.png) no-repeat;
+  background-size: 100% 100%;
 }
 .index-block2-ul li h3 i {
   font-size: 18px;
@@ -499,7 +523,7 @@ input[type="color"],
 }
 .index-block3-ul {
   overflow: hidden;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
 }
 .index-block3-ul li {
   width: 380px;
@@ -603,9 +627,11 @@ input[type="color"],
   background: url(../img/link-bg.png) top center no-repeat;
 }
 .index-block4-ul {
-  width: 930px;
+  width: 1000px;
   height: 907px;
   margin: 0 auto 0;
+  position: relative;
+  left: 65px;
   padding-top: 205px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -663,12 +689,12 @@ input[type="color"],
   line-height: 26px;
 }
 .index-block4-ul li:last-child {
-  width: 405px;
+  width: 433px;
   float: right;
 }
 .index-block4-ul li:last-child .more-btn {
-  background: #fff;
-  color: #7fdee1;
+  background: #fef260;
+  color: #4f9899;
 }
 .index-block5 {
   width: 100%;
@@ -694,7 +720,7 @@ input[type="color"],
   top: 8px;
 }
 .news-bg {
-  margin-top: -20px;
+  margin-top: 5px;
   background: url(../img/news-bg.png) top center no-repeat;
   height: 620px;
   margin-bottom: 100px;
@@ -702,14 +728,15 @@ input[type="color"],
 .index-block5-ul {
   width: 930px;
   margin: 0 auto 0;
-  padding-top: 120px;
+  padding-top: 100px;
+  padding-left: 150px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 .index-block5-ul li {
-  font-size: 14px;
+  font-size: 12px;
   color: #000;
-  line-height: 36px;
+  line-height: 30px;
 }
 .index-block5-ul li i {
   float: left;
@@ -727,17 +754,17 @@ input[type="color"],
 }
 .index-block5-ul .more-btn {
   display: block;
-  width: 156px;
-  height: 55px;
-  font-size: 22px;
-  line-height: 55px;
+  width: 106px;
+  height: 45px;
+  font-size: 16px;
+  line-height: 45px;
   text-align: center;
   color: #fff;
   background: #6acce8;
   -webkit-border-radius: 5px;
           border-radius: 5px;
-  margin-left: 150px;
-  margin-top: 46px;
+  margin-left: 90px;
+  margin-top: 23px;
 }
 .index-block6 {
   width: 100%;
@@ -775,6 +802,14 @@ input[type="color"],
   height: 60px;
   line-height: 60px;
   font-weight: normal;
+}
+.index-block7-ul li h4 i {
+  display: inline-block;
+  width: 11px;
+  height: 10px;
+  background: url(../img/suangjiantou.png) no-repeat;
+  background-size: 100% 100%;
+  margin-right: 5px;
 }
 .index-block7-ul li a {
   font-size: 12px;
@@ -833,5 +868,36 @@ input[type="color"],
   margin-right: 16px;
 }
 /* 首页 */
+@media screen and (max-width: 1140px) {
+  .tools-bottom li {
+    padding-top: 20px;
+  }
+  .tools-bottom .tools-bottom-left {
+    width: 219px;
+    margin-right: 19px;
+  }
+  .tools-bottom .tools-bottom-left h4 {
+    margin-bottom: 0;
+  }
+  .tools-bottom .tools-bottom-right {
+    margin-right: 13px;
+  }
+}
+@media screen and (min-width: 1141px) and (max-width: 1300px) {
+  .tools-bottom li {
+    padding-top: 20px;
+  }
+  .tools-bottom .tools-bottom-left {
+    width: 219px;
+    margin-right: 35px;
+  }
+  .tools-bottom .tools-bottom-left h4 {
+    margin-bottom: 0;
+  }
+  .tools-bottom .tools-bottom-right {
+    margin-right: 30px;
+  }
+}
+/* 调整样式 */
 
 /*# sourceMappingURL=allcss.css.map */
