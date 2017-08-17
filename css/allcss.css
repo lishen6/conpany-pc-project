@@ -425,7 +425,6 @@ input[type="color"],
   font-size: 20px;
   color: #fff;
   text-align: center;
-  word-spacing: 5px;
   text-transform: Uppercase;
   letter-spacing: 2px;
   font-weight: normal;
@@ -954,5 +953,78 @@ input[type="color"],
   }
 }
 /* 调整样式 */
+.wl-banner img {
+  width: 100%;
+}
+.time-axis {
+  position: relative;
+  width: 990px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #434343;
+  line-height: 25px;
+  margin-top: 60px;
+}
+.time-axis > img {
+  width: 100%;
+}
+.time-axis .this-year {
+  position: absolute;
+  width: 260px;
+  top: 0px;
+  left: 0px;
+}
+.time-axis .last-year {
+  position: absolute;
+  width: 260px;
+  bottom: 40px;
+  left: 120px;
+}
+.time-axis .year15 {
+  position: absolute;
+  width: 260px;
+  bottom: 200px;
+  left: 238px;
+}
+.time-axis .year14 {
+  position: absolute;
+  width: 260px;
+  bottom: 90px;
+  left: 348px;
+}
+.time-axis .year13 {
+  position: absolute;
+  width: 260px;
+  bottom: 230px;
+  left: 453px;
+}
+.time-axis .year13 .picture {
+  margin-top: 8px;
+}
+.time-axis .year12 {
+  position: absolute;
+  width: 260px;
+  top: 30px;
+  left: 568px;
+}
+.time-axis .year11 {
+  position: absolute;
+  width: 260px;
+  bottom: 65px;
+  left: 683px;
+}
+.time-axis .year10 {
+  position: absolute;
+  width: 260px;
+  bottom: 235px;
+  left: 790px;
+}
+.time-axis .blue-wz {
+  color: #76c7df;
+}
+.time-axis .picture {
+  margin-top: 15px;
+}
+/* 大事件 */
 
 /*# sourceMappingURL=allcss.css.map */
