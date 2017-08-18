@@ -953,8 +953,26 @@ input[type="color"],
   }
 }
 /* 调整样式 */
-.wl-banner img {
-  width: 100%;
+.wl-banner {
+  height: 576px;
+  position: relative;
+  background: url(../img/big-banner.jpg) no-repeat center;
+}
+.wl-banner .wl-big-events {
+  position: absolute;
+  top: 54%;
+  left: 20%;
+  width: 476px;
+  height: 116px;
+  background: url(../img/big-wl.png) no-repeat center;
+  text-indent: -9999px;
+}
+.wl-banner .wl-summary {
+  position: absolute;
+  top: 75%;
+  left: 20.5%;
+  font-size: 14px;
+  color: #fff;
 }
 .time-axis {
   position: relative;
@@ -1024,6 +1042,106 @@ input[type="color"],
 }
 .time-axis .picture {
   margin-top: 15px;
+}
+.honour {
+  height: 607px;
+  background: url(../img/bolang.png) no-repeat top center;
+  position: relative;
+  margin-bottom: 47px;
+}
+.honour .swiper-pagination .swiper-pagination-bullet {
+  background: #535353;
+  opacity: 1;
+}
+.honour .swiper-pagination .swiper-pagination-bullet-active {
+  background: #6acce8;
+}
+.honour .honour-con {
+  width: 730px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-bottom: 30px;
+}
+.honour .honour-con ul {
+  height: 210px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+.honour .honour-con ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 127px;
+  margin-right: 15px;
+}
+.honour .honour-con ul li:last-child {
+  margin-right: 0px;
+}
+.honour .honour-con ul .img-div {
+  height: 113px;
+  overflow: hidden;
+}
+.honour .honour-con ul .img-div img {
+  width: 100%;
+  height: 100%;
+}
+.honour .honour-con p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin-top: 8px;
+}
+.honour .swiper-honour-prev {
+  width: 46px;
+  height: 46px;
+  background: url(../img/turn-left.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 17%;
+  top: 50%;
+  margin-top: -24px;
+  z-index: 99;
+  cursor: pointer;
+}
+.honour .swiper-honour-next {
+  width: 46px;
+  height: 46px;
+  background: url(../img/turn-right.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 17%;
+  top: 50%;
+  margin-top: -24px;
+  z-index: 99;
+  cursor: pointer;
+}
+.honour .swiper-honour-next.swiper-button-disabled {
+  opacity: 1;
+  background: url(../img/turn-right-disabled.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: default;
+}
+.honour .swiper-honour-prev.swiper-button-disabled {
+  opacity: 1;
+  background: url(../img/turn-left-disabled.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: default;
+}
+.wl-title {
+  font-size: 30px;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+}
+.wl-title > img {
+  margin-top: -20px;
+}
+.wl-title b {
+  font-size: 48px;
 }
 /* 大事件 */
 
