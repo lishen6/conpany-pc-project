@@ -10,6 +10,14 @@ $(function(){
 	      $(".pagationBox").children('img').removeClass('active').eq(_index).addClass('active');
 	    }
     })
+    var mySwiper2 = new Swiper ('#swiper-honour', {
+    	pagination : '#pagination2',
+    	paginationClickable :true,
+        autoplay: 5000,
+        prevButton:'.swiper-honour-prev',
+		nextButton:'.swiper-honour-next',
+		spaceBetween : 15
+    })
 	$(".pagationBox img").on("click",function(){ //点击缩略图控制swiper的显示
 		var _index = $(this).index();
 		mySwiper1.slideTo(_index, 300, false);//切换到第一个slide，速度为300毫秒
