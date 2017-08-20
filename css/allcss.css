@@ -268,6 +268,21 @@ input[type="color"],
 .tools-top span:hover {
   color: #6acce8;
 }
+.tools-top span.active {
+  color: #6acce8;
+}
+.tools-top a {
+  font-size: 18px;
+  margin-right: 46px;
+  color: #333333;
+  cursor: pointer;
+}
+.tools-top a:hover {
+  color: #6acce8;
+}
+.tools-top a.active {
+  color: #6acce8;
+}
 .tools-bottom {
   padding-left: 16px;
 }
@@ -389,7 +404,7 @@ input[type="color"],
   width: 357px;
   height: 48px;
   position: absolute;
-  bottom: 60px;
+  bottom: 30px;
   left: 50%;
   z-index: 3;
   margin-left: -179px;
@@ -413,8 +428,8 @@ input[type="color"],
   top: 26%;
 }
 .swiper-container-banner .top-titleh4 {
-  height: 60px;
-  font-size: 42px;
+  height: 50px;
+  font-size: 36px;
   color: #fff;
   text-align: center;
   letter-spacing: 3px;
@@ -433,22 +448,38 @@ input[type="color"],
   width: 330px;
   position: absolute;
   left: 50%;
-  top: 49%;
-  margin-left: -165px;
+  top: 43%;
+  margin-left: -128px;
 }
 .swiper-container-banner .banner01-content2 .top-titlep {
-  height: 34px;
-  line-height: 34px;
+  height: 30px;
+  line-height: 30px;
   text-align: left;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
 }
 .swiper-container-banner .banner01-content2 .top-titlep span {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   color: #6acce8;
   margin-right: 28px;
+}
+.swiper-container-banner .banner01-content2.veicenter {
+  top: 52%;
+}
+.swiper-container-banner .banner01-content2.hiycenter {
+  margin-left: -94px;
+}
+.swiper-container-banner .banner01-bottom {
+  width: 668px;
+  height: 66px;
+  background: url(../img/banner02-bottom.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  margin-left: -334px;
 }
 .index-block2 {
   width: 100%;
@@ -1015,7 +1046,7 @@ input[type="color"],
   position: absolute;
   width: 260px;
   top: 0px;
-  left: 0px;
+  left: 5px;
 }
 .time-axis .last-year {
   position: absolute;
@@ -1063,7 +1094,7 @@ input[type="color"],
   left: 790px;
 }
 .time-axis .blue-wz {
-  color: #76c7df;
+  color: #6acce8;
 }
 .time-axis .picture {
   margin-top: 15px;
@@ -1454,6 +1485,7 @@ input[type="color"],
   margin: 0 auto;
 }
 .icon-module li {
+  cursor: pointer;
   width: 96px;
   height: 205px;
   margin-right: 36px;
@@ -1466,6 +1498,9 @@ input[type="color"],
 }
 .icon-module li .img-div {
   overflow: hidden;
+}
+.icon-module li .img-div img {
+  width: 95px;
 }
 .icon-module li p {
   margin-top: 15px;
@@ -1507,7 +1542,6 @@ input[type="color"],
 }
 .newsBox-ul li .newsBox-ul-left {
   width: 86px;
-  padding-top: 6px;
   float: left;
 }
 .newsBox-ul li .newsBox-ul-left p {
@@ -1518,12 +1552,12 @@ input[type="color"],
   display: inline-block;
   text-align: center;
   padding: 0 5px 5px;
-  color: #a0a0a0;
+  color: #999;
 }
 .newsBox-ul li .newsBox-ul-left h4 {
   font-size: 36px;
   line-height: 45px;
-  color: #a0a0a0;
+  color: #999;
   width: 53px;
   text-align: center;
 }
@@ -1558,14 +1592,16 @@ input[type="color"],
   font-size: 14px;
   color: #999999;
   font-style: normal;
+  font-weight: normal;
 }
 .newsBox-ul li .newsBox-ul-right-div h4 span {
   display: inline-block;
   font-size: 14px;
   color: #6acce8;
   padding: 4px 7px;
-  border: 4px #6acce8 solid;
+  border: 2px #6acce8 solid;
   line-height: 14px;
+  font-weight: normal;
 }
 .newsBox-ul li .newsBox-ul-right-div p {
   height: 42px;
