@@ -2,7 +2,7 @@
     position: relative;
     .swiper-container{
         width: 100%;
-//      max-height: 650px;
+        height: 500px;
         .swiper-slide{
 
             img{
@@ -39,16 +39,17 @@
     right: 0;
 }
 .tools-top{
-    height: 99px;
-    line-height: 99px;
+    height: 55px;
+    line-height: 55px;
     padding-left: 16px;
     border-bottom: 1px #e4e4e4 solid;
     box-sizing: border-box;
     span{
-        font-size: 18px;
+        font-size: 14px;
         margin-right: 46px;
         color: #333333;
         cursor: pointer;
+        font-weight: bold;
         &:hover{
             color: #6acce8;
         }
@@ -57,7 +58,8 @@
         }
     }
     a{
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: bold;
         margin-right: 46px;
         color: #333333;
         cursor: pointer;
@@ -86,7 +88,7 @@
         float: left;
         margin-right: 72px;
         h4{
-            font-size: 24px;
+            font-size: 20px;
             color: #333;
             font-weight: normal;
             margin-bottom: 25px;
@@ -145,32 +147,32 @@
 }
 .tools-leftbg{
     position: absolute;
-    left: -65px;
+    left: -37px;
     top: 0;
-    width: 65px;
-    height: 99px;
+    width: 37px;
+    height: 55px;
     background: url(../img/sanjiao1.png) no-repeat;
     background-size: 100% 100%;
     &.active{
         width: 248px;
         height: 378px;
         left: -248px;
-        background: url(../img/sanjiao2.png) no-repeat;
+        background: url(../img/sanjiao2.png) no-repeat 28px -44px;
         background-size: 100% 100%;
     }
 }
 //修改banner 部分 swiper样式
 .swiper-container-banner{
     .swiper-button-prev{
-       width: 59px;
-       height: 58px;
+       width: 41px;
+       height: 41px;
        background: url(../img/left-button.png) no-repeat;
        background-size: 100% 100%;
        left: 50px;
     }
     .swiper-button-next{
-        width: 59px;
-        height: 58px;
+        width: 41px;
+        height: 41px;
         background: url(../img/right-button.png) no-repeat;
         background-size: 100% 100%;
         right: 50px;
@@ -211,7 +213,7 @@
 //      overflow: hidden;
         position: absolute;
         left: 0;
-        top: 26%;
+        top: 20%;
     }
     .top-titleh4{        
         height: 50px;
@@ -224,7 +226,7 @@
     .top-titleh3{
         width: 100%;
         height: 22px;
-        font-size: 20px;
+        font-size: 14px;
         color: #fff;
         text-align: center;
         text-transform:Uppercase;
@@ -235,27 +237,27 @@
         width: 330px;
         position: absolute;
         left: 50%;
-        top: 43%;
+        top: 38%;
         margin-left: -128px;
         .top-titlep{
             height: 30px;
             line-height: 30px;
             text-align: left;
             color: #fff;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: normal;
             span{
-                font-size: 14px;
+                font-size: 12px;
                 font-weight: bold;
                 color: #6acce8;
                 margin-right: 28px;
             }
         }
         &.veicenter{
-            top: 52%;
+            top: 45%;
         }
         &.hiycenter{
-            margin-left: -94px;
+            margin-left: -83px;
         }
     }
     .banner01-bottom{
@@ -264,7 +266,7 @@
         background: url(../img/banner02-bottom.png) no-repeat;
         background-size: 100%;
         position: absolute;
-        top: 63%;
+        top: 61%;
         left: 50%;
         margin-left: -334px;
     }
@@ -366,14 +368,14 @@
     width: 100%;
     overflow: hidden;
     .centerBox{
-        width: 930px;
+        width: 740px;
         margin: 46px auto 0;
     }
     .centerBox-title{
         text-align: center;
         font-size: 30px;
         color: #352e2c;
-        margin-bottom: 70px;
+        margin-bottom: 43px;
         font-weight: bold;
         b{
             font-size: 42px;
@@ -389,12 +391,12 @@
 }
 .index-block3-ul{
     overflow: hidden;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     li{
-        width: 380px;
+        width: 308px;
         img{
             display: block;
-            margin: 0 auto 38px;
+            margin: 0 auto 20px;
             .imgw1{
                 width: 191px;
                 height: 44px;
@@ -414,12 +416,12 @@
         }
         span{
             display: block;
-            width: 380px;
-            height: 206px;            
+            width: 308px;
+            height: 163px;            
             position: relative;
             i{
-                width: 119px;
-                height: 43px;
+                width: 95px;
+                height: 36px;
                 display: inline-block;
                 text-align: center;
                 line-height: 43px;
@@ -453,7 +455,7 @@
             font-size: 14px;
             color: #000;
             line-height: 30px;
-            margin-top: 30px;
+            margin-top: 20px;
             padding: 0 20px;
             font-weight: bold;
         }
@@ -593,8 +595,7 @@
 .news-bg{
     margin-top: 5px;
     background: url(../img/news-bg.png) top center no-repeat;
-     height:600px;
-     margin-bottom: 100px; 
+     height:554px;
 }
 .index-block5-ul{
     width: 930px;
@@ -638,7 +639,7 @@
 .index-block6{
     width: 100%;
     height: 230px;
-    border-top: 1px #d6d6d6 solid;
+    border-top: 1px transparent solid;
     position: relative;
     img{
         width: 854px;
@@ -661,14 +662,14 @@
 .index-block7{
     width: 100%;
     height: 238px;
-    background: #1f60a4;
-    border-bottom: 1px #497db3 solid;
+    background: #1f60a4;    
 }
 .index-block7-ul{
     width: 1000px;
+    height: 238px;
     overflow: hidden;
     margin: 0 auto;
-//  padding-left: 40px;
+    border-bottom: 1px #497db3 solid;
     box-sizing: border-box;
     li{
         float: left;
@@ -718,6 +719,9 @@
         line-height: 24px;
         color: #dcdcdc;
         font-size: 12px;
+        &.bolder{
+            font-weight: bold;
+        }
     }
 }
 .index-block8-left-top{
@@ -725,9 +729,9 @@
     height: 62px;
     line-height: 62px;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     a{
-        font-size: 18px;
+        font-size: 14px;
         color: #fff;
     }
 }
