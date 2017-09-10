@@ -405,13 +405,13 @@ input[type="color"],
   background-size: 100% 100%;
 }
 .swiper-container-banner .pagationBox {
-  width: 357px;
+  width: 476px;
   height: 48px;
   position: absolute;
   bottom: 30px;
   left: 50%;
   z-index: 3;
-  margin-left: -179px;
+  margin-left: -238px;
 }
 .swiper-container-banner .pagationBox img {
   display: block;
@@ -455,6 +455,9 @@ input[type="color"],
   top: 38%;
   margin-left: -128px;
 }
+.swiper-container-banner .banner01-content2.marleft150 {
+  margin-left: -171px;
+}
 .swiper-container-banner .banner01-content2 .top-titlep {
   height: 30px;
   line-height: 30px;
@@ -484,6 +487,57 @@ input[type="color"],
   top: 61%;
   left: 50%;
   margin-left: -334px;
+}
+.banner01-bt-title {
+  width: 100%;
+  height: 22px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: absolute;
+  top: 70%;
+}
+.banner01-flower-content2 {
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  margin-left: -300px;
+}
+.banner01-flower-content2 li {
+  float: left;
+  width: 180px;
+  margin: 0 10px;
+  position: relative;
+}
+.banner01-flower-content2 li.mgn-top p {
+  margin-top: -6px;
+}
+.banner01-flower-content2 li .left-flower {
+  width: 22px;
+  height: 66px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/banner02_left-flower_03.png) no-repeat left center;
+}
+.banner01-flower-content2 li .right-flower {
+  width: 22px;
+  height: 66px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../img/banner02_right-flower_05.png) no-repeat left center;
+}
+.banner01-flower-content2 li p {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
 }
 .index-block2 {
   width: 100%;
@@ -741,7 +795,7 @@ input[type="color"],
 }
 .index-block4-ul li .more-btn {
   display: block;
-  width: 130px;
+  width: 181px;
   height: 45px;
   background: #6acce8;
   font-size: 18px;
