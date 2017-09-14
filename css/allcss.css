@@ -238,7 +238,7 @@ input[type="color"],
 .head-top .logo {
   width: 217px;
   height: 21px;
-  margin: 40px 0 0 60px;
+  margin: 14px 0 0 60px;
 }
 .tools-container {
   width: 100%;
@@ -273,6 +273,12 @@ input[type="color"],
 }
 .tools-top span.active {
   color: #6acce8;
+}
+.tools-top span.active a {
+  color: #6acce8;
+}
+.tools-top span a {
+  margin-right: 0px;
 }
 .tools-top a {
   font-size: 14px;
@@ -2337,7 +2343,6 @@ input[type="color"],
   width: 100%;
   overflow: hidden;
   position: relative;
-  border-top: 30px #7ad1d5 solid;
 }
 .channel-block4-bg {
   width: 100%;
@@ -2524,5 +2529,61 @@ input[type="color"],
   }
 }
 /* 调整样式 */
+.sell .wl-banner .wl-big-events.channel-baner-title {
+  background: url(../img/sell-channel.png) no-repeat left center;
+  margin-bottom: 10px;
+}
+.sell .wl-banner.channel-banner {
+  background: url(../img/sell1.png) no-repeat center;
+  background-size: auto 576px;
+}
+.sell .step1 {
+  height: 290px;
+  background: url(../img/sell-step.jpg) no-repeat top center;
+}
+.sell .step1 .middle p {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  line-height: 25px;
+  width: 390px;
+}
+.sell .step1 .middle p:nth-child(1) {
+  color: #fff;
+  font-size: 14px;
+  left: 263px;
+  top: 131px;
+}
+.sell .step1 .middle p:nth-child(2) {
+  left: 257px;
+  top: 166px;
+  color: #999;
+}
+.sell .step1 .middle p:nth-child(3) {
+  left: 257px;
+  top: 196px;
+}
+.get-data {
+  height: 600px;
+  background: url(../img/sell2.png) no-repeat center;
+}
+.get-data > h4 {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  top: 50px;
+}
+.get-data > h4 span {
+  font-size: 30px;
+}
+.middle {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+/* 销售渠道 */
 
 /*# sourceMappingURL=allcss.css.map */
