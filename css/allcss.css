@@ -2529,6 +2529,13 @@ input[type="color"],
   }
 }
 /* 调整样式 */
+.sell .channel-block5 {
+  background: #f6f6f6;
+  height: 403px;
+}
+.sell .channel-block5 .channel-block5-ul {
+  background: url(../img/gray-logo.png) no-repeat left top;
+}
 .sell .wl-banner .wl-big-events.channel-baner-title {
   background: url(../img/sell-channel.png) no-repeat left center;
   margin-bottom: 10px;
@@ -2538,8 +2545,11 @@ input[type="color"],
   background-size: auto 576px;
 }
 .sell .step1 {
-  height: 290px;
+  height: 400px;
   background: url(../img/sell-step.jpg) no-repeat top center;
+}
+.sell .step1 .middle {
+  height: 100%;
 }
 .sell .step1 .middle p {
   font-size: 12px;
@@ -2563,6 +2573,137 @@ input[type="color"],
   left: 257px;
   top: 196px;
 }
+.sell .step1 .bottom-tips {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  bottom: 37px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  line-height: 24px;
+}
+.sell .step2 {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sell .step2 li {
+  float: left;
+  width: 50%;
+}
+.sell .step2 li:nth-child(2) > p {
+  margin: 10px 0 0 39px;
+}
+.sell .step2 li > p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin: 10px 0 0 34px;
+}
+.sell .step4 {
+  height: 600px;
+  background: url(../img/sell-step4.jpg) no-repeat top center;
+}
+.sell .step4 .middle {
+  height: 100%;
+}
+.sell .step4 .middle > p {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  line-height: 25px;
+  width: 420px;
+}
+.sell .step4 .middle > p:nth-child(1) {
+  color: #fff;
+  font-size: 14px;
+  left: 263px;
+  top: 162px;
+}
+.sell .step4 .middle > p:nth-child(2) {
+  left: 257px;
+  top: 196px;
+  color: #999;
+}
+.sell .step4 .middle > p:nth-child(3) {
+  left: 257px;
+  top: 226px;
+}
+.sell .step4 .middle .bottom-wz {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  width: 350px;
+}
+.sell .step4 .middle .bottom-wz > h5 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #77d0ea;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.sell .step4 .middle .bottom-wz > p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #333;
+}
+.sell .data-info-banner {
+  height: 270px;
+  background: url(../img/sell5.png) no-repeat top center;
+}
+.sell .data-info-banner h3 {
+  font-size: 18px;
+  color: #fff;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.sell .data-info {
+  width: 867px;
+  background: #fff;
+  padding: 30px 34px;
+  margin: -120px auto 28px;
+  overflow: hidden;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+}
+.sell .data-info li {
+  float: left;
+  width: 178px;
+  margin-right: 29px;
+  margin-bottom: 60px;
+}
+.sell .data-info li:nth-child(4n) {
+  margin-right: 0px;
+}
+.sell .data-info li > h5 {
+  font-size: 14px;
+  color: #6acce8;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.sell .data-info li > p {
+  font-size: 12px;
+  color: #333;
+  line-height: 25px;
+  margin-bottom: 13px;
+}
+.sell .data-info li > div {
+  font-size: 12px;
+  color: #f0f0f0;
+}
+.sell .data-info li > div span {
+  color: #a9a9a9;
+}
 .get-data {
   height: 600px;
   background: url(../img/sell2.png) no-repeat center;
@@ -2583,6 +2724,87 @@ input[type="color"],
   width: 800px;
   margin: 0 auto;
   position: relative;
+}
+.sell-block {
+  width: 800px;
+  margin: 0 auto;
+}
+.sell-block li {
+  margin-bottom: 100px;
+  min-height: 255px;
+}
+.sell-block .sell-detail1 {
+  margin-left: 400px;
+  padding-top: 20px;
+}
+.sell-block .sell-detail1 h4 {
+  font-size: 18px;
+  margin-bottom: 39px;
+}
+.sell-block .sell-detail1 h4 span {
+  font-size: 24px;
+}
+.sell-block .sell-detail1 h4 i {
+  position: relative;
+  top: -20px;
+  margin-right: 5px;
+}
+.sell-block .sell-detail1 p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.sell-block .sell-detail1 p span {
+  color: #6acce8;
+}
+.sell-block .sell-detail2 {
+  margin-right: 400px;
+}
+.sell-block .sell-detail2 h4 {
+  font-size: 18px;
+  margin-bottom: 39px;
+  line-height: 30px;
+}
+.sell-block .sell-detail2 h4 span {
+  font-size: 24px;
+}
+.sell-block .sell-detail2 h4 i {
+  position: relative;
+  top: -20px;
+  margin-right: 5px;
+}
+.sell-block .sell-detail2 p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.sell-block .sell-detail2 p span {
+  color: #6acce8;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.channel-btn {
+  text-align: center;
+  margin-bottom: 75px;
+}
+.channel-btn h4 {
+  font-size: 24px;
+  line-height: 60px;
+}
+.channel-btn .channel-btn-a {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  background: #6acce8;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
 }
 /* 销售渠道 */
 
