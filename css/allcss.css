@@ -1044,6 +1044,10 @@ input[type="color"],
   background: url(../img/channel_management_banner_02.jpg) no-repeat center;
   background-size: auto 576px;
 }
+.wl-banner.channel-account-banner {
+  background: url(../img/channel_account_banner.jpg) no-repeat center;
+  background-size: auto 576px;
+}
 .wl-banner .wl-big-events {
   position: absolute;
   top: 200px;
@@ -1069,6 +1073,9 @@ input[type="color"],
 }
 .wl-banner .wl-big-events.channel-baner-title {
   background: url(../img/channel.png) no-repeat left center;
+}
+.wl-banner .wl-big-events.channel-account-baner-title {
+  background: url(../img/account_top_03.png) no-repeat left center;
 }
 .wl-banner .wl-summary {
   position: absolute;
@@ -2126,7 +2133,7 @@ input[type="color"],
 }
 .channel-box-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   color: #352e2c;
   margin: 60px 0 50px;
   font-weight: bold;
@@ -2138,7 +2145,7 @@ input[type="color"],
   top: -15px;
 }
 .channel-box-title b {
-  font-size: 42px;
+  font-size: 36px;
 }
 .channel-block2-ul {
   width: 750px;
@@ -2498,6 +2505,400 @@ input[type="color"],
   line-height: 24px;
 }
 /* 企业活动 */
+.channelaccount-block1 {
+  width: 100%;
+  height: 530px;
+  background: #fff url(../img/account-money_06.jpg) no-repeat top right;
+  overflow: hidden;
+}
+.channelaccount-block1 .account1-title {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 60px 0 50px;
+  font-weight: bold;
+}
+.channelaccount-block1 .account1-title b {
+  font-size: 30px;
+}
+.channelaccount-block1 .account1-title img {
+  width: 46px;
+  height: 43px;
+  position: relative;
+  top: -15px;
+}
+.account1-ul {
+  width: 800px;
+  height: 350px;
+  margin: 0 auto;
+}
+.account1-ul li {
+  width: 178px;
+  height: 252px;
+  border: 1px #b4b4b4 solid;
+  margin-right: 29px;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  padding-top: 24px;
+  background: #fff;
+}
+.account1-ul li span {
+  width: 68px;
+  height: 53px;
+  display: block;
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  margin-left: -34px;
+}
+.account1-ul li span.account1-num1 {
+  background: #fff url(../img/account-block12.png) no-repeat center center;
+}
+.account1-ul li span.account1-num2 {
+  background: #fff url(../img/account-block13.png) no-repeat center center;
+}
+.account1-ul li span.account1-num3 {
+  background: #fff url(../img/account-block14.png) no-repeat center center;
+}
+.account1-ul li span.account1-num4 {
+  background: #fff url(../img/account-block15.png) no-repeat center center;
+}
+.account1-ul li h4 {
+  font-size: 14px;
+  color: #333;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+}
+.account1-ul li p {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #666666;
+  line-height: 24px;
+  height: 24px;
+  text-align: center;
+}
+.account1-ul li.lst {
+  float: right;
+  margin-right: 0;
+}
+.channelaccount-block2 {
+  width: 100%;
+  overflow: hidden;
+  background: #fff url(../img/account-block2-bg_02.jpg) no-repeat;
+  background-size: 100%;
+}
+.channelaccount-block2-box {
+  width: 100%;
+  overflow: hidden;
+  margin: 30px auto 0;
+}
+.channelaccount-block2-top {
+  width: 370px;
+  height: 110px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+  background: url(../img/account-block2-bg2_03.png) no-repeat left top;
+  padding: 68px 0 0 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.channelaccount-block2-top b {
+  font-size: 30px;
+  font-weight: normal;
+}
+.account2-ul {
+  width: 800px;
+  overflow: hidden;
+  margin: 24px auto 0;
+}
+.account2-ul li {
+  width: 181px;
+  height: 240px;
+  margin-right: 25px;
+  float: left;
+  overflow: hidden;
+}
+.account2-ul li.account2-num1 {
+  background: #fff url(../img/account-block21_06.jpg) no-repeat;
+}
+.account2-ul li.account2-num2 {
+  background: #fff url(../img/account-block22_06.jpg) no-repeat;
+}
+.account2-ul li.account2-num3 {
+  background: #fff url(../img/account-block23_06.jpg) no-repeat;
+}
+.account2-ul li.account2-num4 {
+  background: #fff url(../img/account-block24_06.jpg) no-repeat;
+}
+.account2-ul li h3 {
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+  width: 80%;
+  margin: 24px auto 0;
+}
+.account2-ul li p {
+  font-size: 12px;
+  color: #666666;
+  line-height: 18px;
+  width: 80%;
+  margin: 0 auto;
+}
+.account2-ul li.lst {
+  float: right;
+  margin-right: 0;
+}
+.account2-bottom {
+  width: 800px;
+  overflow: hidden;
+  margin: 24px auto 0;
+}
+.account2-bottom-top {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 115px 0 30px;
+  font-weight: bold;
+}
+.account2-bottom-top b {
+  font-size: 30px;
+}
+.account2-bottom-top img {
+  width: 40px;
+  height: 41px;
+  position: relative;
+  top: -15px;
+}
+.account2-bottom-ul {
+  width: 100%;
+  overflow: hidden;
+}
+.account2-bottom-ul li {
+  width: 50%;
+  height: 200px;
+  float: left;
+  background: url(../img/account-block2-qianbi.png) no-repeat left;
+  padding: 30px 50px 0 170px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.account2-bottom-ul li h3 {
+  font-size: 18px;
+  color: #333;
+  line-height: 28px;
+}
+.account2-bottom-ul li p {
+  font-size: 12px;
+  color: #333;
+  line-height: 26px;
+}
+.account2-bottom-ul li.lst {
+  background: url(../img/account-block2-jisuanqi.png) no-repeat left;
+  padding: 30px 33px 0 150px;
+}
+.channelaccount-block3 {
+  width: 100%;
+  min-height: 610px;
+  margin-top: 120px;
+  overflow: hidden;
+}
+.channelaccount-block3-bg {
+  width: 100%;
+  min-height: 610px;
+  background: url(../img/account3_bg_02.jpg) no-repeat left top;
+  background-size: 100%;
+}
+.channelaccount-block3-top {
+  width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.channelaccount-block3-top .account3-top-title {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 100px 0 40px;
+  font-weight: bold;
+}
+.channelaccount-block3-top .account3-top-title span {
+  background: #fff;
+}
+.channelaccount-block3-top .account3-top-title span b {
+  font-size: 30px;
+}
+.channelaccount-block3-top .account3-top-title img {
+  width: 51px;
+  height: 36px;
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+}
+.channelaccount-block3-top .account3-top-content {
+  width: 800px;
+  height: 216px;
+  background: #fff;
+}
+.channelaccount-block3-top .account3-top-content div {
+  width: 45%;
+  float: left;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.channelaccount-block3-top .account3-top-content div img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.channelaccount-block3-top .account3-top-content div h3 {
+  margin: 0 10px 0 20px;
+  font-size: 18px;
+  color: #333;
+  line-height: 40px;
+}
+.channelaccount-block3-top .account3-top-content div p {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  width: 270px;
+}
+.channelaccount-block3-bottom {
+  width: 100%;
+  min-height: 800px;
+  overflow: hidden;
+  background: url(../img/account311.png) no-repeat left bottom;
+  position: relative;
+}
+.channelaccount-block3-bottom .cardHand {
+  position: absolute;
+  right: 0;
+  top: 37%;
+  z-index: 99;
+}
+.account3-bottom-top {
+  width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9;
+}
+.account3-bottom-top .account3-bottom-top-title {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 100px 0 50px;
+  font-weight: bold;
+}
+.account3-bottom-top .account3-bottom-top-title b {
+  font-size: 30px;
+}
+.account3-bottom-top .account3-bottom-top-title img {
+  width: 30px;
+  height: 40px;
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+}
+.account3-bottom-top-ul {
+  width: 100%;
+}
+.account3-bottom-top-ul li {
+  float: left;
+  width: 353px;
+  height: 207px;
+  position: relative;
+  border: 1px #b4b4b4 solid;
+  padding-top: 37px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.account3-bottom-top-ul li span {
+  display: block;
+  width: 100px;
+  height: 56px;
+  position: absolute;
+  background: #fff url(../img/account35.png) no-repeat center center;
+  top: -28px;
+  left: 50%;
+  margin-left: -50px;
+}
+.account3-bottom-top-ul li h3 {
+  font-size: 18px;
+  color: #333;
+  line-height: 40px;
+  text-align: center;
+}
+.account3-bottom-top-ul li p {
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  width: 75%;
+  margin: 0 auto;
+}
+.account3-bottom-top-ul li.lst {
+  float: right;
+}
+.account3-bottom-top-ul li.lst span {
+  background: #fff url(../img/account36.png) no-repeat center center;
+}
+.account3-bottom-bottom {
+  width: 800px;
+  height: 333px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+.account3-bottom-bottom .account3-bottom-bottom-title {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 150px 0 40px;
+  font-weight: bold;
+}
+.account3-bottom-bottom .account3-bottom-bottom-title b {
+  font-size: 30px;
+}
+.account3-bottom-bottom .account3-bottom-bottom-title img {
+  width: 36px;
+  height: 35px;
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+}
+.account3-bottom-bottom-ul {
+  width: 100%;
+  position: relative;
+}
+.account3-bottom-bottom-ul li {
+  width: 50%;
+  height: 150px;
+  float: left;
+  padding: 0 4px 0 203px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(../img/account39.png) no-repeat;
+}
+.account3-bottom-bottom-ul li h3 {
+  font-size: 18px;
+  color: #333;
+  line-height: 40px;
+}
+.account3-bottom-bottom-ul li p {
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+}
+.account3-bottom-bottom-ul li.lst {
+  padding: 0 10px 0 185px;
+  background: url(../img/account310.png) no-repeat;
+  background-position-x: 48px;
+}
+/* 对账 */
 @media screen and (max-width: 1140px) {
   .tools-bottom li {
     padding-top: 20px;
@@ -2528,10 +2929,15 @@ input[type="color"],
     margin-right: 30px;
   }
 }
+@media screen and (max-width: 1370px) {
+  .channelaccount-block3-bottom .cardHand {
+    right: -8%;
+  }
+}
 /* 调整样式 */
 .sell .channel-block5 {
   background: #f6f6f6;
-  height: 403px;
+  height: 290px;
 }
 .sell .channel-block5 .channel-block5-ul {
   background: url(../img/gray-logo.png) no-repeat left top;
