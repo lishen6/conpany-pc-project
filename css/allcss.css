@@ -1048,6 +1048,10 @@ input[type="color"],
   background: url(../img/channel_account_banner.jpg) no-repeat center;
   background-size: auto 576px;
 }
+.wl-banner.service-banner {
+  background: url(../img/service-banner.jpg) no-repeat center;
+  background-size: auto 700px;
+}
 .wl-banner .wl-big-events {
   position: absolute;
   top: 200px;
@@ -1076,6 +1080,9 @@ input[type="color"],
 }
 .wl-banner .wl-big-events.channel-account-baner-title {
   background: url(../img/account_top_03.png) no-repeat left center;
+}
+.wl-banner .wl-big-events.service-baner-title {
+  background: url(../img/service-banner-tl.png) no-repeat left center;
 }
 .wl-banner .wl-summary {
   position: absolute;
@@ -2966,6 +2973,295 @@ input[type="color"],
   background-position-x: 48px;
 }
 /* 对账 */
+.service1 {
+  width: 100%;
+  height: 690px;
+  padding-top: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(../img/service11.png) no-repeat right top;
+}
+.service1 h3 {
+  height: 80px;
+  line-height: 112px;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  background: url(../img/service13.png) no-repeat center top;
+  margin-bottom: 52px;
+}
+.service1 img {
+  display: block;
+  margin: 0 auto 50px;
+}
+.service1 p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+.service1 h4 {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+}
+.service1 h4 span {
+  display: inline-block;
+  border-bottom: 3px #033333 solid;
+  padding-bottom: 7px;
+}
+.service2 {
+  width: 100%;
+  height: 1150px;
+  background: #f6f6f6 url(../img/service2-bg_02.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position-y: 50px;
+}
+.service2-center {
+  width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.service2-center > h3 {
+  font-size: 24px;
+  color: #333333;
+  line-height: 35px;
+  text-align: center;
+  margin: 100px 0 55px 0;
+}
+.service2-center-ul {
+  width: 100%;
+  overflow: hidden;
+}
+.service2-center-ul li {
+  width: 252px;
+  float: left;
+  margin-right: 22px;
+  background: #fff;
+}
+.service2-center-ul li.lst {
+  margin-right: 0;
+  float: right;
+}
+.service2-center-ul li img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.service2-center-ul li h4 {
+  font-size: 18px;
+  color: #333333;
+  line-height: 26px;
+  padding-left: 12px;
+}
+.service2-center-ul li p {
+  font-size: 14px;
+  color: #333;
+  line-height: 19px;
+  padding: 0 5px 0 12px;
+  margin-bottom: 35px;
+}
+.service2-ul2 {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.service2-ul2 li {
+  width: 50%;
+  height: 150px;
+  float: left;
+  background: url(../img/service26.png) no-repeat left center;
+  padding: 20px 0 0 85px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.service2-ul2 li h4 {
+  font-size: 18px;
+  color: #959595;
+  line-height: 40px;
+}
+.service2-ul2 li p {
+  font-size: 16px;
+  color: #959595;
+  line-height: 24px;
+}
+.service2-ul2 li.lst {
+  background: url(../img/service27.png) no-repeat left center;
+}
+.service2-div {
+  margin-top: 40px;
+}
+.service2-div h4 {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+.service2-div p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+  font-weight: normal;
+}
+.service2-div p span {
+  display: inline-block;
+  border-bottom: 3px #033333 solid;
+  padding-bottom: 7px;
+}
+.service3 {
+  width: 100%;
+  height: 860px;
+  overflow: hidden;
+  background-size: 100% ;
+}
+.service3-top {
+  width: 100%;
+  height: 360px;
+  background: url(../../img/service3-bg_02.jpg) no-repeat center;
+  background-size: 130%;
+  overflow: hidden;
+}
+.service3-top .service3-top-center {
+  width: 100%;
+  height: 360px;
+  background: url(../img/service31.png) no-repeat center;
+  background-position-y: 60px;
+  overflow: hidden;
+}
+.service3-top h3 {
+  font-size: 24px;
+  color: #fff;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 100px;
+}
+.service3-top h4 {
+  font-size: 16px;
+  color: #edebeb;
+  line-height: 40px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 2%;
+}
+.service3-top p {
+  font-size: 16px;
+  color: #edebeb;
+  line-height: 40px;
+  text-align: center;
+}
+.service3-top p span {
+  display: inline-block;
+  border-bottom: 3px #ffffff solid;
+  padding-bottom: 7px;
+}
+.service3-bottom {
+  width: 100%;
+  height: 480px;
+  margin: 0 auto;
+  background: #333;
+}
+.service3-bottom .service3-bottom-center {
+  width: 800px;
+  margin: 0 auto;
+}
+.service3-bottom img {
+  display: block;
+  float: left;
+  margin-top: 73px;
+}
+.service3-bottom .service3-bottom-ul {
+  width: 400px;
+  float: right;
+  margin-top: 33px;
+}
+.service3-bottom .service3-bottom-ul li {
+  height: 60px;
+  background: url(../img/service33.png) no-repeat left center;
+  padding-left: 75px;
+  margin-bottom: 25px;
+}
+.service3-bottom .service3-bottom-ul li.lst1 {
+  background: url(../img/service34.png) no-repeat left center;
+}
+.service3-bottom .service3-bottom-ul li.lst2 {
+  background: url(../img/service35.png) no-repeat left center;
+}
+.service3-bottom .service3-bottom-ul li.lst3 {
+  background: url(../img/service36.png) no-repeat left center;
+}
+.service3-bottom .service3-bottom-ul li.lst4 {
+  background: url(../img/service37.png) no-repeat left center;
+}
+.service3-bottom .service3-bottom-ul li h4 {
+  font-size: 20px;
+  color: #6c6c6c;
+  line-height: 33px;
+}
+.service3-bottom .service3-bottom-ul li p {
+  font-size: 20px;
+  color: #999;
+}
+.service4 {
+  width: 100%;
+  height: 510px;
+  background: #fff url(../img/service43.png) no-repeat right;
+  background-size: 40%;
+  background-position-y: -20px;
+  overflow: hidden;
+}
+.service4 .service4-center {
+  width: 800px;
+  height: 510px;
+  margin: 40px auto 0;
+}
+.service4 .service4-center > p {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+.service4 .service4-box {
+  width: 800px;
+  height: 200px;
+  margin-bottom: 39px;
+}
+.service4 .service4-box .fir1 {
+  width: 400px;
+  height: 200px;
+  float: left;
+  background: url(../img/service41.jpg) no-repeat center center;
+}
+.service4 .service4-box .fir2 {
+  width: 400px;
+  height: 200px;
+  float: right;
+  background: url(../img/service42.jpg) no-repeat center;
+  background-position-y: 90px;
+}
+.service4-bottom {
+  width: 100%;
+  height: 176px;
+}
+.service4-bottom p {
+  width: 162px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 23px;
+  color: #fff;
+  background: #6acce8;
+  font-weight: bold;
+  margin: 0 0 18px 64px;
+}
+.service4-bottom div {
+  background: url(../img/service44.png) no-repeat left;
+  padding-left: 92px;
+}
+.service4-bottom div h4 {
+  font-weight: normal;
+  color: #333333;
+  font-size: 24px;
+  line-height: 32px;
+}
+/* 服务*/
 @media screen and (max-width: 1140px) {
   .tools-bottom li {
     padding-top: 20px;
