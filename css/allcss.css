@@ -3737,6 +3737,7 @@ input[type="color"],
 }
 .rongzi .data-info-banner2 {
   background: url(../img/rong18.jpg) no-repeat top center;
+  background-size: 100% auto;
 }
 .rongzi .data-info2 {
   margin-bottom: 0px;
@@ -3761,6 +3762,9 @@ input[type="color"],
 .rongzi .partner {
   width: 800px;
   margin: 0 auto 40px;
+}
+.rongzi .partner .wl-title {
+  padding-top: 40px;
 }
 .rongzi .partner > p {
   font-size: 12px;
@@ -3815,11 +3819,17 @@ input[type="color"],
   padding: 0px;
   height: 360px;
 }
+.rongzi .channel-block5 .wl-title {
+  padding-top: 40px;
+}
 .rongzi .channel-block5-ul {
   width: 800px;
 }
 .rongzi .channel-block5 .channel-block5-ul {
   background: url(../img/rong10.jpg) no-repeat left top;
+}
+.rongzi .index-block6 img {
+  margin-top: 26px;
 }
 .wl-title {
   font-size: 18px;
