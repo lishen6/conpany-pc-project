@@ -216,6 +216,9 @@ input[type="color"],
   content: "\e71";
 }
 /* iconfont */
+.ov-hidden {
+  overflow: hidden;
+}
 .head {
   position: relative;
   height: 500px;
@@ -327,6 +330,7 @@ input[type="color"],
   float: left;
   display: inline-block;
   margin-right: 30px;
+  height: 110px;
 }
 .tools-bottom .tools-bottom-right h3 {
   font-size: 12px;
