@@ -694,11 +694,11 @@ input[type="color"],
   position: relative;
 }
 .index-block3-ul li span i {
-  width: 95px;
+  width: 135px;
   height: 36px;
   display: inline-block;
   text-align: center;
-  line-height: 43px;
+  line-height: 36px;
   font-style: normal;
   font-size: 14px;
   color: #fff;
@@ -727,9 +727,9 @@ input[type="color"],
 .index-block3-ul li h4 {
   font-size: 14px;
   color: #000;
-  line-height: 30px;
+  line-height: 23px;
   margin-top: 20px;
-  padding: 0 20px;
+  padding: 0 20px 10px;
   font-weight: bold;
 }
 .index-block3-ul li p {
@@ -737,6 +737,15 @@ input[type="color"],
   color: #666;
   line-height: 23px;
   padding: 0 20px;
+}
+.index-block3-centertitle {
+  font-size: 18px;
+  color: #666;
+  height: 63px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  top: -14px;
 }
 .index-block4 {
   width: 100%;
