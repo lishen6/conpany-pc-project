@@ -379,7 +379,7 @@ input[type="color"],
   left: -37px;
   top: 0;
   width: 37px;
-  height: 55px;
+  height: 56px;
   background: url(../img/sanjiao1.png) no-repeat;
   background-size: 100% 100%;
 }
@@ -877,7 +877,7 @@ input[type="color"],
 .index-block5-ul {
   width: 930px;
   margin: 0 auto 0;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 150px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
