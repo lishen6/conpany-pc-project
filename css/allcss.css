@@ -3011,7 +3011,9 @@ input[type="color"],
 }
 .sell .wl-banner .wl-big-events.channel-baner-title {
   background: url(../img/sell-channel.png) no-repeat left center;
-  margin-bottom: 10px;
+}
+.sell .wl-summary {
+  margin-top: 10px;
 }
 .sell .wl-banner.channel-banner {
   background: url(../img/sell1.png) no-repeat center;
@@ -3282,5 +3284,264 @@ input[type="color"],
   color: #fff;
 }
 /* 销售渠道 */
+.rongzi .wl-banner .wl-big-events.channel-baner-title {
+  background: url(../img/rong12.png) no-repeat left center;
+}
+.rongzi .wl-summary {
+  margin-top: 10px;
+}
+.rongzi .wl-banner.channel-banner {
+  background: url(../img/rong2.jpg) no-repeat center;
+  background-size: auto 726px;
+}
+.rongzi .data {
+  height: 270px;
+  width: 800px;
+  margin: 0 auto;
+}
+.rongzi .data .wl-title {
+  margin-bottom: 42px;
+}
+.rongzi .data .fl {
+  position: relative;
+}
+.rongzi .data .fl > span {
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  left: 13px;
+}
+.rongzi .data .fl > span:nth-child(3) {
+  left: 110px;
+}
+.rongzi .data .fl > span:nth-child(4) {
+  left: 228px;
+}
+.rongzi .data .fr {
+  position: relative;
+}
+.rongzi .data .fr > span {
+  position: absolute;
+  text-align: center;
+  top: 53px;
+  left: 15px;
+}
+.rongzi .data .fr > span:nth-child(3) {
+  left: 160px;
+}
+.rongzi .data .fr > span:nth-child(4) {
+  left: 257px;
+}
+.rongzi .two-model-div {
+  background: url(../img/rong-step.jpg) no-repeat bottom center;
+  padding-bottom: 65px;
+}
+.rongzi .two-model {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.rongzi .two-model dt {
+  margin-bottom: 62px;
+}
+.rongzi .two-model dd {
+  float: left;
+  text-align: center;
+  width: 353px;
+  border: solid 1px #b4b4b4;
+  padding: 56px 70px 30px;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  position: relative;
+}
+.rongzi .two-model dd > .img-div {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  text-align: center;
+  background: #fff;
+}
+.rongzi .two-model dd h5 {
+  font-size: 18px;
+  color: #333;
+  line-height: 30px;
+}
+.rongzi .two-model dd .gray-span {
+  margin-bottom: 13px;
+}
+.rongzi .two-model dd p {
+  font-size: 12px;
+  color: #333;
+  line-height: 23px;
+}
+.rongzi .two-model dd p > span {
+  font-size: 14px;
+  color: #999;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.rongzi .data-info-banner {
+  height: 270px;
+  background: url(../img/rong1.jpg) no-repeat top center;
+  background-size: 100% auto;
+}
+.rongzi .data-info-banner h3 {
+  font-size: 24px;
+  margin-left: -350px;
+}
+.rongzi .data-info h3 {
+  font-size: 18px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.rongzi .data-info li {
+  margin-bottom: 20px;
+}
+.rongzi .data-info li img {
+  float: left;
+  margin-right: 9px;
+}
+.rongzi .data-info li p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+}
+.rongzi .data-info li h5 {
+  color: #333;
+}
+.rongzi .data-info li:nth-child(4n) {
+  margin-right: 29px;
+}
+.rongzi .data-info li:nth-child(5) {
+  margin-right: 0px;
+}
+.rongzi .data-info li:nth-child(9) {
+  margin-right: 0px;
+}
+.rongzi .data-info li:nth-child(13) {
+  margin-right: 0px;
+}
+.rongzi .data-info .bottom-li {
+  margin-top: 35px;
+}
+.rongzi .data-info .bottom-li h5 {
+  margin-bottom: 18px;
+}
+.rongzi .data-info .bottom-li p {
+  line-height: 24px;
+}
+.rongzi .data-info-banner2 {
+  background: url(../img/rong18.jpg) no-repeat top center;
+}
+.rongzi .data-info2 {
+  margin-bottom: 0px;
+}
+.rongzi .data-info2 .img-money {
+  width: 100%;
+}
+.rongzi .data-info2 .bottom-li {
+  margin-top: 27px;
+}
+.rongzi .data-info2 .bottom-li h5 {
+  line-height: 25px;
+}
+.rongzi .partner-div {
+  position: relative;
+}
+.rongzi .partner-div .partner-bg {
+  position: absolute;
+  right: 0px;
+  top: -210px;
+}
+.rongzi .partner {
+  width: 800px;
+  margin: 0 auto 40px;
+}
+.rongzi .partner > p {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.rongzi .partner ul {
+  margin-top: 38px;
+  overflow: hidden;
+}
+.rongzi .partner li {
+  float: left;
+}
+.rongzi .partner li:nth-child(1) {
+  width: 157px;
+  text-align: center;
+}
+.rongzi .partner li:nth-child(2) {
+  width: 246px;
+  text-align: center;
+}
+.rongzi .partner li:nth-child(3) {
+  width: 140px;
+  text-align: center;
+}
+.rongzi .partner li:nth-child(4) {
+  width: 250px;
+  text-align: center;
+}
+.rongzi .partner li p {
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.rongzi .qiye {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.rongzi .qiye > p {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.rongzi .qiye > img {
+  margin: 20px 0 30px;
+}
+.rongzi .channel-block5 {
+  background: #fff;
+  padding: 0px;
+  height: 360px;
+}
+.rongzi .channel-block5-ul {
+  width: 800px;
+}
+.rongzi .channel-block5 .channel-block5-ul {
+  background: url(../img/rong10.jpg) no-repeat left top;
+}
+.wl-title {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  height: 60px;
+  line-height: 27px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+.wl-title > span {
+  font-size: 30px;
+}
+.wl-title i {
+  position: relative;
+  top: -5px;
+  right: 5px;
+}
+/* 融资渠道 */
 
 /*# sourceMappingURL=allcss.css.map */
