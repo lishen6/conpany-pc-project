@@ -1824,6 +1824,73 @@ input[type="color"],
   margin-top: 25px;
   padding-right: 15%;
 }
+.newsDetail {
+  width: 100%;
+  padding: 0 5% 40px;
+  margin: 20px auto 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px #c9c9c9 solid;
+}
+.newsDetail .newsDetail-title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+}
+.newsDetail .newsDetail-type {
+  font-size: 14px;
+  color: #6acce8;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.newsDetail .newsDetail-type span {
+  padding-right: 15px;
+}
+.newsDetail .newsDetail-content p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #666666;
+  margin: 10px 0;
+}
+.newsDetail .newsDetail-content img {
+  width: 92%;
+  display: block;
+  margin: 10px auto;
+}
+.newsDetail .newsDetail-content h5 {
+  margin: 10px 0 20px;
+  color: #666666;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+.newsOther {
+  width: 100%;
+  padding: 0 5% 25px;
+  padding-top: 5px;
+  margin: 0 auto ;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.newsOther .newsOther-title {
+  font-size: 18px;
+  color: #333;
+  line-height: 55px;
+  font-weight: bold;
+}
+.newsOther ul {
+  padding-left: 20px;
+}
+.newsOther ul li {
+  list-style: disc;
+  height: 23px;
+  line-height: 23px;
+}
+.newsOther ul li a {
+  font-size: 14px;
+  color: #6acce8;
+}
 /* 企业新闻 */
 .activityBox {
   width: 100%;
@@ -2948,7 +3015,7 @@ input[type="color"],
 }
 .sell .wl-banner.channel-banner {
   background: url(../img/sell1.png) no-repeat center;
-  background-size: auto 576px;
+  background-size: auto 726px;
 }
 .sell .step1 {
   height: 400px;
@@ -3010,6 +3077,8 @@ input[type="color"],
 .sell .step4 {
   height: 600px;
   background: url(../img/sell-step4.jpg) no-repeat top center;
+  background-position-y: 70px;
+  margin-bottom: 110px;
 }
 .sell .step4 .middle {
   height: 100%;
@@ -3056,7 +3125,8 @@ input[type="color"],
 }
 .sell .data-info-banner {
   height: 270px;
-  background: url(../img/sell5.png) no-repeat top center;
+  background: url(../img/sell5.jpg) no-repeat top center;
+  background-size: 100% auto;
 }
 .sell .data-info-banner h3 {
   font-size: 18px;
@@ -3094,7 +3164,6 @@ input[type="color"],
   font-size: 14px;
   color: #6acce8;
   line-height: 30px;
-  font-weight: 500;
   margin-bottom: 12px;
 }
 .sell .data-info li > p {
