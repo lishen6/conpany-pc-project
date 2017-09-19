@@ -333,13 +333,13 @@ input[type="color"],
   height: 110px;
 }
 .tools-bottom .tools-bottom-right h3 {
+  line-height: 30px;
   font-size: 12px;
-  color: #e2e2e2;
   font-weight: normal;
 }
 .tools-bottom .tools-bottom-right h3 a {
   font-size: 12px;
-  color: #333;
+  color: #000;
 }
 .tools-bottom .tools-bottom-right h4 {
   font-weight: normal;
@@ -1319,7 +1319,7 @@ input[type="color"],
   position: relative;
 }
 .wl-data .about-wz-content {
-  width: 559px;
+  width: 560px;
   position: absolute;
   top: 230px;
   left: 50%;
