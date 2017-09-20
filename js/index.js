@@ -1,4 +1,18 @@
 $(function(){
+	//回到顶部
+	$(document).scroll(function(){
+		console.log(888888);
+		 var top=$(document).scrollTop();  
+            if(top<300){  
+                $('.gotop').hide();  
+            }  
+            else{  
+                $('.gotop').show();  
+            } 
+	});
+	$('.gotop').on('click',function(){
+		$('body,html').animate({scrollTop:0},300); 
+	})
 	var mySwiper1 = new Swiper ('#swiper-container1', {
     	pagination : '#pagination1',
     	paginationClickable :true,

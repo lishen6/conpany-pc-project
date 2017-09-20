@@ -216,6 +216,17 @@ input[type="color"],
   content: "\e71";
 }
 /* iconfont */
+.gotop {
+  width: 77px;
+  height: 94px;
+  display: block;
+  position: fixed;
+  bottom: 120px;
+  right: 78px;
+  z-index: 99999;
+  display: none;
+  cursor: pointer;
+}
 .ov-hidden {
   overflow: hidden;
 }
@@ -729,18 +740,23 @@ input[type="color"],
   background-size: 100% 100%;
 }
 .index-block3-ul li h4 {
-  font-size: 14px;
-  color: #000;
-  line-height: 23px;
+  font-size: 18px;
+  color: #666;
+  line-height: 25px;
   margin-top: 20px;
-  padding: 0 20px 10px;
+  padding: 0 20px 14px;
   font-weight: bold;
+  text-align: center;
+}
+.index-block3-ul li h4 em {
+  color: #333;
+  font-style: normal;
 }
 .index-block3-ul li p {
   font-size: 14px;
   color: #666;
   line-height: 23px;
-  padding: 0 20px;
+  padding: 20px 20px 0;
 }
 .index-block3-centertitle {
   font-size: 18px;
@@ -750,6 +766,21 @@ input[type="color"],
   text-align: center;
   position: relative;
   top: -14px;
+}
+.index-block3-centertitle b {
+  width: 91px;
+  height: 1px;
+  display: inline-block;
+  background: #c1c1c1;
+  position: absolute;
+}
+.index-block3-centertitle b.leftb {
+  top: 25px;
+  left: 136px;
+}
+.index-block3-centertitle b.rightb {
+  top: 25px;
+  right: 137px;
 }
 .index-block4 {
   width: 100%;
@@ -1065,6 +1096,10 @@ input[type="color"],
   background: url(../img/service-banner.jpg) no-repeat center;
   background-size: auto 700px;
 }
+.wl-banner.ahead-tect-banner {
+  background: url(../img/head-teach-banner_02.jpg) no-repeat center;
+  background-size: auto 628px;
+}
 .wl-banner .wl-big-events {
   position: absolute;
   top: 200px;
@@ -1075,6 +1110,8 @@ input[type="color"],
   text-indent: -9999px;
 }
 .wl-banner .wl-big-events.news-baner-title {
+  width: 424px;
+  height: 93px;
   background: url(../img/newstop-bg.png) no-repeat left center;
 }
 .wl-banner .wl-big-events.contect-baner-title {
@@ -1096,6 +1133,11 @@ input[type="color"],
 }
 .wl-banner .wl-big-events.service-baner-title {
   background: url(../img/service-banner-tl.png) no-repeat left center;
+}
+.wl-banner .wl-big-events.ahead-tect-baner-title {
+  width: 409px;
+  height: 155px;
+  background: url(../img/ahead-tect-topbg.png) no-repeat left center;
 }
 .wl-banner .wl-summary {
   position: absolute;
@@ -1959,17 +2001,16 @@ input[type="color"],
   margin: 0 auto;
 }
 .xunzhan-icon li img.shenzhen-icon {
-  width: 105px;
-  height: 93px;
+  width: 89px;
+  height: 90px;
 }
 .xunzhan-icon li img.shanghai-icon {
-  width: 134px;
-  height: 96px;
-  margin-left: -15px;
+  width: 88px;
+  height: 95px;
 }
 .xunzhan-icon li img.beijing-icon {
-  width: 116px;
-  height: 96px;
+  width: 87px;
+  height: 92px;
 }
 .xunzhan-icon li p {
   text-align: center;
@@ -2599,11 +2640,16 @@ input[type="color"],
   overflow: hidden;
 }
 .channelaccount-block1 .account1-title {
+  width: 800px;
   text-align: center;
   font-size: 18px;
   color: #333;
-  margin: 60px 0 50px;
+  margin: 20px auto 0;
+  padding: 60px 0 50px;
   font-weight: bold;
+  background: url(../img/account-block1-bg1_03.png) no-repeat;
+  background-position-x: 221px;
+  background-position-y: 9px;
 }
 .channelaccount-block1 .account1-title b {
   font-size: 30px;
@@ -2746,11 +2792,16 @@ input[type="color"],
   margin: 24px auto 0;
 }
 .account2-bottom-top {
+  width: 800px;
   text-align: center;
   font-size: 18px;
   color: #333;
-  margin: 115px 0 30px;
+  margin: auto 0;
+  padding: 115px 0 30px;
   font-weight: bold;
+  background: url(../img/account-block3-bg3_03.png) no-repeat;
+  background-position-x: 154px;
+  background-position-y: 52px;
 }
 .account2-bottom-top b {
   font-size: 30px;
@@ -2878,8 +2929,11 @@ input[type="color"],
   text-align: center;
   font-size: 18px;
   color: #333;
-  margin: 100px 0 50px;
+  padding: 100px 0 50px;
   font-weight: bold;
+  background: url(../img/account-block5-bg5_03.png) no-repeat;
+  background-position-x: 218px;
+  background-position-y: 33px;
 }
 .account3-bottom-top .account3-bottom-top-title b {
   font-size: 30px;
@@ -3129,7 +3183,7 @@ input[type="color"],
 .service3-top {
   width: 100%;
   height: 360px;
-  background: url(../../img/service3-bg_02.jpg) no-repeat center;
+  background: url(../img/service3-bg_02.jpg) no-repeat center;
   background-size: 130%;
   overflow: hidden;
 }
@@ -3184,33 +3238,38 @@ input[type="color"],
 .service3-bottom .service3-bottom-ul {
   width: 400px;
   float: right;
-  margin-top: 33px;
+  margin-top: 62px;
 }
 .service3-bottom .service3-bottom-ul li {
-  height: 60px;
+  height: 50px;
   background: url(../img/service33.png) no-repeat left center;
+  background-size: auto 100%;
   padding-left: 75px;
   margin-bottom: 25px;
 }
 .service3-bottom .service3-bottom-ul li.lst1 {
   background: url(../img/service34.png) no-repeat left center;
+  background-size: auto 100%;
 }
 .service3-bottom .service3-bottom-ul li.lst2 {
   background: url(../img/service35.png) no-repeat left center;
+  background-size: auto 100%;
 }
 .service3-bottom .service3-bottom-ul li.lst3 {
   background: url(../img/service36.png) no-repeat left center;
+  background-size: auto 100%;
 }
 .service3-bottom .service3-bottom-ul li.lst4 {
   background: url(../img/service37.png) no-repeat left center;
+  background-size: auto 100%;
 }
 .service3-bottom .service3-bottom-ul li h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: #6c6c6c;
-  line-height: 33px;
+  line-height: 23px;
 }
 .service3-bottom .service3-bottom-ul li p {
-  font-size: 20px;
+  font-size: 16px;
   color: #999;
 }
 .service4 {
@@ -3246,7 +3305,7 @@ input[type="color"],
   width: 400px;
   height: 200px;
   float: right;
-  background: url(../img/service42.jpg) no-repeat center;
+  background: url(../img/service42.png) no-repeat center;
   background-position-y: 90px;
 }
 .service4-bottom {
@@ -3275,6 +3334,11 @@ input[type="color"],
   line-height: 32px;
 }
 /* 服务*/
+.ahead-techimg {
+  display: block;
+  width: 100%;
+}
+/* 领先科技*/
 @media screen and (max-width: 1140px) {
   .tools-bottom li {
     padding-top: 20px;
