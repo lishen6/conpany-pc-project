@@ -3967,6 +3967,22 @@ input[type="color"],
   text-indent: -9999px;
   margin-bottom: 38px;
 }
+.industry .one-div > .three .center3 {
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+}
+.industry .one-div > .three .center3 span {
+  width: 150px;
+  height: 50px;
+  line-height: 70px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+  background: #fff;
+  float: left;
+}
 .industry .one-div .five-anli {
   width: 810px;
   margin: 0 auto;
