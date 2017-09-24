@@ -216,6 +216,17 @@ input[type="color"],
   content: "\e71";
 }
 /* iconfont */
+.gotop {
+  width: 77px;
+  height: 94px;
+  display: block;
+  position: fixed;
+  bottom: 120px;
+  right: 78px;
+  z-index: 99999;
+  display: none;
+  cursor: pointer;
+}
 .ov-hidden {
   overflow: hidden;
 }
@@ -473,11 +484,11 @@ input[type="color"],
   line-height: 30px;
   text-align: left;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
 }
 .swiper-container-banner .banner01-content2 .top-titlep span {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   color: #6acce8;
   margin-right: 28px;
@@ -501,7 +512,7 @@ input[type="color"],
 .banner01-bt-title {
   width: 100%;
   height: 22px;
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
   text-align: center;
   letter-spacing: 2px;
@@ -546,7 +557,7 @@ input[type="color"],
   line-height: 30px;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
 }
 .index-block2 {
@@ -755,6 +766,21 @@ input[type="color"],
   text-align: center;
   position: relative;
   top: -14px;
+}
+.index-block3-centertitle b {
+  width: 91px;
+  height: 1px;
+  display: inline-block;
+  background: #c1c1c1;
+  position: absolute;
+}
+.index-block3-centertitle b.leftb {
+  top: 25px;
+  left: 136px;
+}
+.index-block3-centertitle b.rightb {
+  top: 25px;
+  right: 137px;
 }
 .index-block4 {
   width: 100%;
@@ -1070,6 +1096,10 @@ input[type="color"],
   background: url(../img/service-banner.jpg) no-repeat center;
   background-size: auto 700px;
 }
+.wl-banner.ahead-tect-banner {
+  background: url(../img/head-teach-banner_02.jpg) no-repeat center;
+  background-size: auto 628px;
+}
 .wl-banner .wl-big-events {
   position: absolute;
   top: 200px;
@@ -1080,6 +1110,8 @@ input[type="color"],
   text-indent: -9999px;
 }
 .wl-banner .wl-big-events.news-baner-title {
+  width: 424px;
+  height: 93px;
   background: url(../img/newstop-bg.png) no-repeat left center;
 }
 .wl-banner .wl-big-events.contect-baner-title {
@@ -1102,11 +1134,16 @@ input[type="color"],
 .wl-banner .wl-big-events.service-baner-title {
   background: url(../img/service-banner-tl.png) no-repeat left center;
 }
+.wl-banner .wl-big-events.ahead-tect-baner-title {
+  width: 409px;
+  height: 155px;
+  background: url(../img/ahead-tect-topbg.png) no-repeat left center;
+}
 .wl-banner .wl-summary {
   position: absolute;
   top: 310px;
   left: 20.5%;
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
   line-height: 27px;
 }
@@ -1573,7 +1610,7 @@ input[type="color"],
   margin-right: 36px;
   float: left;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 24px;
 }
 .icon-module li:last-child {
   margin-right: 0px;
@@ -1964,17 +2001,16 @@ input[type="color"],
   margin: 0 auto;
 }
 .xunzhan-icon li img.shenzhen-icon {
-  width: 105px;
-  height: 93px;
+  width: 88px;
+  height: 90px;
 }
 .xunzhan-icon li img.shanghai-icon {
-  width: 134px;
-  height: 96px;
-  margin-left: -15px;
+  width: 88px;
+  height: 90px;
 }
 .xunzhan-icon li img.beijing-icon {
-  width: 116px;
-  height: 96px;
+  width: 88px;
+  height: 90px;
 }
 .xunzhan-icon li p {
   text-align: center;
@@ -2604,11 +2640,16 @@ input[type="color"],
   overflow: hidden;
 }
 .channelaccount-block1 .account1-title {
+  width: 800px;
   text-align: center;
   font-size: 18px;
   color: #333;
-  margin: 60px 0 50px;
+  margin: 20px auto 0;
+  padding: 60px 0 50px;
   font-weight: bold;
+  background: url(../img/account-block1-bg1_03.png) no-repeat;
+  background-position-x: 221px;
+  background-position-y: 9px;
 }
 .channelaccount-block1 .account1-title b {
   font-size: 30px;
@@ -2751,11 +2792,16 @@ input[type="color"],
   margin: 24px auto 0;
 }
 .account2-bottom-top {
+  width: 800px;
   text-align: center;
   font-size: 18px;
   color: #333;
-  margin: 115px 0 30px;
+  margin: auto 0;
+  padding: 115px 0 30px;
   font-weight: bold;
+  background: url(../img/account-block3-bg3_03.png) no-repeat;
+  background-position-x: 154px;
+  background-position-y: 52px;
 }
 .account2-bottom-top b {
   font-size: 30px;
@@ -2883,8 +2929,11 @@ input[type="color"],
   text-align: center;
   font-size: 18px;
   color: #333;
-  margin: 100px 0 50px;
+  padding: 100px 0 50px;
   font-weight: bold;
+  background: url(../img/account-block5-bg5_03.png) no-repeat;
+  background-position-x: 218px;
+  background-position-y: 33px;
 }
 .account3-bottom-top .account3-bottom-top-title b {
   font-size: 30px;
@@ -3285,6 +3334,247 @@ input[type="color"],
   line-height: 32px;
 }
 /* 服务*/
+.headtech1,
+.headtech2 {
+  width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 80px 0 50px;
+  background: url(../img/headteach21.png) no-repeat;
+  background-position: 76px 14px;
+}
+.headtech1 .headtech1-title1,
+.headtech2 .headtech1-title1 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+.headtech1 .headtech1-title2,
+.headtech2 .headtech1-title2 {
+  font-size: 24px;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+}
+.headtech1-ul {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 425px;
+}
+.headtech1-ul li {
+  width: 195px;
+  float: left;
+  margin-right: 105px;
+}
+.headtech1-ul li.fr {
+  float: right;
+  margin-right: 0;
+}
+.headtech1-ul li h4 {
+  font-size: 18px;
+  color: #333;
+  line-height: 60px;
+  height: 60px;
+  border-bottom: 1px #e0e0e0 solid;
+  padding-left: 40px;
+  margin-bottom: 8px;
+}
+.headtech1-ul li h4.headtech1-ul-img1 {
+  background: url(../img/headteach22.png) no-repeat left center;
+}
+.headtech1-ul li h4.headtech1-ul-img2 {
+  background: url(../img/headteach23.png) no-repeat left center;
+}
+.headtech1-ul li h4.headtech1-ul-img3 {
+  background: url(../img/headteach24.png) no-repeat left center;
+}
+.headtech1-ul li h4.headtech1-ul-img4 {
+  background: url(../img/headteach25.png) no-repeat left center;
+}
+.headtech1-ul li h4.headtech1-ul-img5 {
+  background: url(../img/headteach26.png) no-repeat left center;
+}
+.headtech1-ul li h4.headtech1-ul-img6 {
+  background: url(../img/headteach27.png) no-repeat left center;
+}
+.headtech1-ul li p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #999;
+}
+.headtech1-ul li p a {
+  font-size: 12px;
+  color: #999;
+}
+.headtech2box {
+  width: 100%;
+  height: 900px;
+  background: #f6f6f6 url(../img/headteach32.png) no-repeat right bottom;
+}
+.headtech2 {
+  height: 900px;
+  background: url(../img/headteach31.png) no-repeat;
+  background-position: -10px 45px;
+  position: relative;
+}
+.headtech2 .headtech2-right1,
+.headtech2 .headtech2-left1 {
+  width: 308px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #999;
+  line-height: 30px;
+  position: absolute;
+  top: 288px;
+  right: -2px;
+}
+.headtech2 .headtech2-left1 {
+  position: absolute;
+  top: 646px;
+  left: 10px;
+}
+.headtech3 {
+  width: 100%;
+  height: 1900px;
+  background: url(../img/headteach41_02.jpg) no-repeat left top;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.headtech3 .headtech3-bg1 {
+  width: 460px;
+  height: 460px;
+  display: block;
+  position: absolute;
+  bottom: -130px;
+  left: -210px;
+  z-index: 8;
+}
+.headtech3 .headtech3-bg2 {
+  width: 460px;
+  height: 460px;
+  display: block;
+  position: absolute;
+  bottom: 410px;
+  right: -20px;
+  z-index: 8;
+}
+.headtech3-center {
+  width: 1000px;
+  height: 1737px;
+  margin: 65px auto 0;
+  background: url(../img/headteach44.png) no-repeat;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+.headtech3-center .headtech3-title1 {
+  font-size: 30px;
+  color: #f6f6f6;
+  text-align: center;
+  margin-top: 38px;
+}
+.headtech3-center .headtech3-title2 {
+  font-size: 24px;
+  color: #f6f6f6;
+  text-align: center;
+  margin-top: 10px;
+}
+.headtech3-center .headtech3-title3,
+.headtech3-center .headtech3-title4,
+.headtech3-center .headtech3-title5 {
+  width: 245px;
+  color: #999;
+  line-height: 30px;
+  position: absolute;
+  top: 290px;
+  left: 90px;
+}
+.headtech3-center .headtech3-title4 {
+  top: 908px;
+  left: 90px;
+}
+.headtech3-center .headtech3-title5 {
+  top: 1400px;
+  left: 90px;
+}
+.headtech4 {
+  width: 100%;
+  overflow: hidden;
+  background: #f6f6f6 url(../img/headteach57.png) no-repeat left bottom;
+  background-size: 100%;
+  padding-top: 62px;
+}
+.headtech4 .headtech4-title {
+  width: 300px;
+  height: 102px;
+  margin: 0 auto;
+  background: url(../img/headteach52.png) no-repeat left top;
+  padding: 49px 0 0 38px;
+}
+.headtech4 .headtech4-title span {
+  display: inline-block;
+  background: #f6f6f6;
+  font-size: 30px;
+  color: #333;
+}
+.headtech4 .headtech4-ul {
+  width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.headtech4 .headtech4-ul li {
+  width: 246px;
+  height: 449px;
+  float: left;
+  background: url(../img/headteach51.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 31px 35px 0;
+  padding-right: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.headtech4 .headtech4-ul li.fr {
+  margin-right: 0;
+  float: right;
+}
+.headtech4 .headtech4-ul li img {
+  width: 100%;
+}
+.headtech4 .headtech4-ul li h4 {
+  height: 40px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  text-align: center;
+  width: 92%;
+  margin: 12px auto 12px;
+}
+.headtech4 .headtech4-ul li p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #999;
+  width: 92%;
+  margin: 0 auto;
+}
+.headtech4 .headtech4-ul li a {
+  display: block;
+  width: 144px;
+  height: 42px;
+  line-height: 42px;
+  border: 1px #6acce8 solid;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  color: #6acce8;
+  background: url(../img/headteach56.png) no-repeat;
+  background-position: 114px 14px;
+  padding-left: 20px;
+  margin: 20px auto;
+}
+/* 领先科技*/
 @media screen and (max-width: 1140px) {
   .tools-bottom li {
     padding-top: 20px;
@@ -3781,10 +4071,13 @@ input[type="color"],
   position: absolute;
   right: 0px;
   top: -210px;
+  z-index: 1;
 }
 .rongzi .partner {
   width: 800px;
   margin: 0 auto 40px;
+  position: relative;
+  z-index: 2;
 }
 .rongzi .partner .wl-title {
   padding-top: 40px;
@@ -3896,6 +4189,63 @@ input[type="color"],
   margin-right: -670px;
   opacity: 0.6;
 }
+.industry .threetab {
+  width: 800px;
+  height: 50px;
+  margin: 0 auto 38px;
+  position: relative;
+}
+.industry .threetab p {
+  width: 173px;
+  height: 50px;
+  float: left;
+  font-weight: bold;
+  color: #757575;
+  font-size: 18px;
+  line-height: 50px;
+  padding-left: 43px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+.industry .threetab p.active {
+  color: #6acce8;
+}
+.industry .threetab p.active.threetab1 {
+  background: url(../img/threetab11.png) no-repeat left top;
+}
+.industry .threetab p.active.threetab2 {
+  background: url(../img/threetab22.png) no-repeat left top;
+}
+.industry .threetab p.active.threetab3 {
+  background: url(../img/threetab33.png) no-repeat left top;
+}
+.industry .threetab p.threetab1 {
+  background: url(../img/threetab1.png) no-repeat left top;
+  margin: 0 90px 0 85px;
+}
+.industry .threetab p.threetab2 {
+  background: url(../img/threetab2.png) no-repeat left top;
+  margin-right: 50px;
+}
+.industry .threetab p.threetab3 {
+  background: url(../img/threetab3.png) no-repeat left top;
+  margin-left: 32px;
+}
+.industry .threetab i {
+  width: 2px;
+  height: 16px;
+  display: block;
+  background: #757575;
+  position: absolute;
+  top: 16px;
+}
+.industry .threetab i.lefti {
+  left: 295px;
+}
+.industry .threetab i.righti {
+  left: 558px;
+}
 .industry .one-div {
   height: 544px;
   background: #f8f8f8;
@@ -3909,9 +4259,23 @@ input[type="color"],
 }
 .industry .one-div > .three {
   height: 50px;
-  background: url(../img/industry6.jpg) no-repeat center;
   text-indent: -9999px;
   margin-bottom: 38px;
+}
+.industry .one-div > .three .center3 {
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+}
+.industry .one-div > .three .center3 span {
+  width: 150px;
+  height: 50px;
+  line-height: 70px;
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+  background: #fff;
+  float: left;
 }
 .industry .one-div .five-anli {
   width: 810px;

@@ -21,6 +21,62 @@
         margin-right: -670px;
         opacity: 0.6;
     }
+    .threetab{
+        width: 800px;
+        height: 50px;
+        margin: 0 auto 38px;
+        position: relative;
+        p{
+            width: 173px;
+            height: 50px;
+            float: left;
+            font-weight: bold;
+            color: #757575;
+            font-size: 18px;
+            line-height: 50px;
+            padding-left: 43px;
+            box-sizing: border-box;
+            cursor: pointer;
+            &.active{
+                color: #6acce8;
+                &.threetab1{
+                    background: url(../img/threetab11.png) no-repeat left top;
+                }
+                &.threetab2{
+                    background: url(../img/threetab22.png) no-repeat left top;
+                }
+                &.threetab3{
+                    background: url(../img/threetab33.png) no-repeat left top;
+                }
+            }
+            &.threetab1{
+                background: url(../img/threetab1.png) no-repeat left top;
+                margin:0 90px 0 85px;
+            }
+            &.threetab2{
+                background: url(../img/threetab2.png) no-repeat left top;
+                margin-right: 50px;
+            }
+            &.threetab3{
+                background: url(../img/threetab3.png) no-repeat left top;
+                margin-left: 32px;
+            }            
+        }
+        i{
+            width: 2px;
+            height: 16px;
+            display: block;
+            background: #757575;
+            position: absolute;
+            top: 16px;
+            &.lefti{               
+                left: 295px;
+            }
+            &.righti{
+                left: 558px;
+            }
+        }
+    }
     .one-div{
         height: 544px;
         background: #f8f8f8;
@@ -33,9 +89,25 @@
        }
        >.three{
             height: 50px;
-            background: url(../img/industry6.jpg) no-repeat center;
+//          background: url(../img/industry6.jpg) no-repeat center;
         text-indent: -9999px;
         margin-bottom: 38px;
+        .center3{
+            width: 800px;
+            height: 50px;
+            margin: 0 auto;
+            span{
+                width: 150px;
+                height: 50px;
+                line-height: 70px;
+                font-weight: bold;
+                color: red;
+//              cursor: pointer;
+                font-size: 16px;
+                background: #fff;
+                float: left;
+            }   
+        }        
        }
        .five-anli{
         width: 810px;
