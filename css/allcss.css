@@ -1417,12 +1417,12 @@ input[type="color"],
 .environment .risk {
   position: absolute;
   left: 69px;
-  top: 130px;
+  top: 110px;
   text-align: center;
 }
 .environment .achievement h4,
 .environment .risk h4 {
-  font-size: 24px;
+  font-size: 16px;
   color: #333;
   line-height: 50px;
   margin-bottom: 5px;
@@ -1431,12 +1431,14 @@ input[type="color"],
 .environment .achievement p,
 .environment .risk p {
   font-size: 14px;
-  line-height: 30px;
+  height: 53px;
+  line-height: 20px;
   color: #333;
+  text-align: left;
 }
 .environment .risk {
   left: auto;
-  right: 77px;
+  right: 60px;
 }
 .environment .small-span1,
 .environment .small-span2,
@@ -3079,15 +3081,15 @@ input[type="color"],
 }
 .service2 {
   width: 100%;
-  height: 1150px;
+  height: 1260px;
   background: #f6f6f6 url(../img/service2-bg_02.jpg) no-repeat;
   background-size: 100% auto;
-  background-position-y: 50px;
+  background-position-y: 355px;
 }
 .service2-center {
   width: 800px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 75px auto 0;
 }
 .service2-center > h3 {
   font-size: 24px;
@@ -3186,6 +3188,14 @@ input[type="color"],
   background: url(../img/service3-bg_02.jpg) no-repeat center;
   background-size: 130%;
   overflow: hidden;
+}
+.service3-top.service3-top1 {
+  background: url(../img/service3-bg_03.jpg) no-repeat center;
+  background-size: 130%;
+}
+.service3-top.service3-top1 .service3-top-center {
+  background: url(../img/service211.png) no-repeat center;
+  background-position-y: 78px;
 }
 .service3-top .service3-top-center {
   width: 100%;
@@ -3334,6 +3344,14 @@ input[type="color"],
   line-height: 32px;
 }
 /* 服务*/
+.headtechbox1 {
+  width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url(../img/headteach211.png) no-repeat;
+  background-size: 100%;
+  background-position: 0 157px;
+}
 .headtech1,
 .headtech2 {
   width: 800px;
@@ -3355,6 +3373,9 @@ input[type="color"],
   color: #999;
   text-align: center;
   margin-top: 10px;
+}
+.headtech1 {
+  background-position: 87px 41px;
 }
 .headtech1-ul {
   width: 100%;
@@ -3451,8 +3472,8 @@ input[type="color"],
   z-index: 8;
 }
 .headtech3 .headtech3-bg2 {
-  width: 460px;
-  height: 460px;
+  width: 800px;
+  height: 591px;
   display: block;
   position: absolute;
   bottom: 410px;
