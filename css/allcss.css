@@ -3596,6 +3596,220 @@ input[type="color"],
   margin: 20px auto;
 }
 /* 领先科技*/
+.contectus {
+  width: 100%;
+  overflow: hidden;
+}
+.contectus-left {
+  width: 90%;
+  height: 505px;
+  float: left;
+  position: relative;
+  background: #f3f3f3;
+  -webkit-border-radius: 0 100px 100px 0;
+          border-radius: 0 100px 100px 0;
+  margin-bottom: 360px;
+}
+.contectus-left .contectus-left-div {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  top: 100px;
+}
+.contectus-left .contectus-left-div.shenzhendiv {
+  top: -100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.contectus-left .contectus-left-div.shenzhendiv div {
+  width: 50%;
+  top: 16px;
+}
+.contectus-left .contectus-left-div.shenzhendiv div h4 {
+  margin-top: 249px;
+}
+.contectus-left .contectus-left-div > img {
+  width: 42%;
+  float: left;
+}
+.contectus-left .contectus-left-div div {
+  width: 58%;
+  height: 400px;
+  float: right;
+  position: relative;
+  top: 80px;
+}
+.contectus-left .contectus-left-div div.shanghai {
+  background: url(../img/contectus12.png) no-repeat right top;
+}
+.contectus-left .contectus-left-div div.shenzhen {
+  background: url(../img/contectus32.png) no-repeat left top;
+  background-size: auto 100%;
+  height: 445px;
+}
+.contectus-left .contectus-left-div div.shenzhen h4 {
+  margin-top: 220px;
+}
+.contectus-left .contectus-left-div div.hefei {
+  width: 53%;
+  height: 445px;
+  top: 40px;
+  background: url(../img/contectus52.png) no-repeat left top;
+  background-size: auto 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 63px;
+}
+.contectus-left .contectus-left-div div h4 {
+  font-size: 30px;
+  color: #333;
+  height: 35px;
+  margin-bottom: 22px;
+}
+.contectus-left .contectus-left-div div h4 a {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  position: relative;
+  left: 122px;
+  top: 10px;
+}
+.contectus-left .contectus-left-div div h4 a.contect-sina {
+  background: url(../img/contectus1.png) no-repeat;
+}
+.contectus-left .contectus-left-div div h4 a.contect-qq {
+  background: url(../img/contectus2.png) no-repeat;
+  left: 132px;
+}
+.contectus-left .contectus-left-div div p {
+  min-height: 19px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8e8e8e;
+  padding-left: 25px;
+  margin-bottom: 22px;
+}
+.contectus-left .contectus-left-div div p.addr {
+  background: url(../img/contectus3.png) no-repeat;
+  background-size: 15px 19px;
+}
+.contectus-left .contectus-left-div div p.tel {
+  background: url(../img/contectus4.png) no-repeat;
+  background-size: 19px 19px;
+}
+.contectus-left .contectus-left-div div p.chuanzhen {
+  background: url(../img/contectus5.png) no-repeat;
+  background-size: 19px 19px;
+}
+.contectus-left .contectus-left-div div p.service {
+  background: url(../img/contectus6.png) no-repeat;
+  background-size: 18px 19px;
+}
+.contectus-left .contectus-left-div div p.email {
+  background: url(../img/contectus7.png) no-repeat;
+  background-size: 19px 16px;
+}
+.contectus-left .contectus-left-div div p span {
+  color: #333333;
+  font-weight: bold;
+}
+.contectus-right {
+  width: 90%;
+  height: 505px;
+  float: right;
+  position: relative;
+  background: #f3f3f3;
+  -webkit-border-radius: 100px 0 0 100px;
+          border-radius: 100px 0 0 100px;
+  margin-bottom: 360px;
+}
+.contectus-right .contectus-left-div {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  top: -100px;
+}
+.contectus-right .contectus-left-div.qingdaodiv {
+  top: 100px;
+}
+.contectus-right .contectus-left-div > img {
+  width: 42%;
+  float: left;
+}
+.contectus-right .contectus-left-div div {
+  width: 45%;
+  height: 400px;
+  float: left;
+  position: relative;
+  top: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 281px 0 0 200px;
+}
+.contectus-right .contectus-left-div div.beijing {
+  background: url(../img/contectus22.png) no-repeat left top;
+}
+.contectus-right .contectus-left-div div.qingdao {
+  background: url(../img/contectus42.png) no-repeat left bottom;
+  height: 450px;
+  padding: 34px 0 0 0;
+}
+.contectus-right .contectus-left-div div h4 {
+  font-size: 30px;
+  color: #333;
+  height: 35px;
+  margin-bottom: 22px;
+}
+.contectus-right .contectus-left-div div h4 a {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  position: relative;
+  left: 122px;
+  top: 10px;
+}
+.contectus-right .contectus-left-div div h4 a.contect-sina {
+  background: url(../img/contectus1.png) no-repeat;
+}
+.contectus-right .contectus-left-div div h4 a.contect-qq {
+  background: url(../img/contectus2.png) no-repeat;
+  left: 132px;
+}
+.contectus-right .contectus-left-div div p {
+  min-height: 19px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8e8e8e;
+  padding-left: 25px;
+  margin-bottom: 22px;
+}
+.contectus-right .contectus-left-div div p.addr {
+  background: url(../img/contectus3.png) no-repeat;
+  background-size: 15px 19px;
+}
+.contectus-right .contectus-left-div div p.tel {
+  background: url(../img/contectus4.png) no-repeat;
+  background-size: 19px 19px;
+}
+.contectus-right .contectus-left-div div p.chuanzhen {
+  background: url(../img/contectus5.png) no-repeat;
+  background-size: 19px 19px;
+}
+.contectus-right .contectus-left-div div p.service {
+  background: url(../img/contectus6.png) no-repeat;
+  background-size: 18px 19px;
+}
+.contectus-right .contectus-left-div div p.email {
+  background: url(../img/contectus7.png) no-repeat;
+  background-size: 19px 16px;
+}
+.contectus-right .contectus-left-div div p span {
+  color: #333333;
+  font-weight: bold;
+}
+/* 联系我们*/
 @media screen and (max-width: 1140px) {
   .tools-bottom li {
     padding-top: 20px;
