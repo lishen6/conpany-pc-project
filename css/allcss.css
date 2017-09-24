@@ -4390,5 +4390,130 @@ input[type="color"],
   padding-left: 5px;
 }
 /* 行业案例 */
+.industry-detail {
+  background: #fff;
+}
+.industry-detail .one-div {
+  padding-top: 50px;
+  height: 741px;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  background: url(../img/shou.jpg) no-repeat bottom center;
+}
+.industry-detail .five-anli {
+  position: relative;
+  overflow: visible;
+}
+.industry-detail .five-anli .tab-logo {
+  position: absolute;
+  top: 60px;
+  left: -30px;
+}
+.industry-detail .five-anli .tab-content {
+  margin-left: 370px;
+  margin-right: 20px;
+}
+.industry-detail .five-anli .tab-content h3 {
+  font-size: 26px;
+  line-height: 60px;
+  border-bottom: solid 2px #333;
+}
+.industry-detail .five-anli .tab-content p {
+  font-size: 14px;
+  color: #a9a9a9;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.industry-detail .steps {
+  margin-top: -247px;
+  background: url(../img/jiao.jpg) no-repeat;
+  background-position: 10% bottom;
+  position: relative;
+  height: 600px;
+}
+.industry-detail .steps h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+}
+.industry-detail .steps .step-img {
+  width: 800px;
+  height: 635px;
+  background: #fff;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-shadow: 0 0 10px rgba(199, 199, 199, 0.2);
+          box-shadow: 0 0 10px rgba(199, 199, 199, 0.2);
+  padding-top: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+}
+.industry-detail .twomodules {
+  height: 570px;
+  background: url(../img/gray-bg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  padding-top: 230px;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+}
+.industry-detail .twomodules > div > div {
+  float: left;
+  width: 50%;
+  height: 270px;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  padding: 57px 78px 0 40px;
+}
+.industry-detail .twomodules > div > div h4 {
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.industry-detail .twomodules > div > div p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #fff;
+  position: relative;
+}
+.industry-detail .twomodules > div > div b {
+  position: absolute;
+  left: -16px;
+  top: -1px;
+  font-size: 22px;
+}
+.industry-detail .twomodules .first-module {
+  background: url(../img/first-module.png) no-repeat center;
+  background-size: 100% auto;
+}
+.industry-detail .twomodules .second-module {
+  background: url(../img/second-module.png) no-repeat center;
+  background-size: 100% auto;
+  padding: 57px 40px 0 78px;
+}
+.industry-detail .twomodules .second-module p {
+  margin-left: 50px;
+}
+/* 行业案例 */
 
 /*# sourceMappingURL=allcss.css.map */
