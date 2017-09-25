@@ -307,6 +307,14 @@ input[type="color"],
 .tools-top a.active {
   color: #6acce8;
 }
+.tools-top .loginbtntop {
+  padding-left: 28px;
+  background: url(../img/person-logo.png) no-repeat left center;
+  color: #e9e7e7;
+}
+.tools-top .loginbtntop a {
+  color: #333;
+}
 .tools-bottom {
   padding-left: 16px;
 }
@@ -2366,8 +2374,8 @@ input[type="color"],
   margin-bottom: 40px;
 }
 .channel-block3-top img {
-  width: 177px;
-  height: 43px;
+  width: 236px;
+  height: 53px;
   margin-top: 31px;
   display: block;
   float: left;
@@ -2497,7 +2505,7 @@ input[type="color"],
   position: absolute;
   top: 50%;
   left: 55%;
-  margin: -228px 0 0 -210px;
+  margin: -260px 0 0 -210px;
 }
 .channel-block4-top {
   width: 455px;
@@ -2509,12 +2517,12 @@ input[type="color"],
 .channel-block4-top p {
   margin-top: 60px;
   font-size: 14px;
-  color: #6acce8;
+  color: #005a96;
   font-weight: bold;
 }
 .channel-block4-top p a {
   font-size: 14px;
-  color: #6acce8;
+  color: #005a96;
   float: right;
 }
 .channel-block4-center {
@@ -2602,15 +2610,15 @@ input[type="color"],
   line-height: 30px;
 }
 .channel-block5-ul {
-  width: 750px;
+  width: 790px;
   padding-top: 70px;
   margin: 40px auto 0;
   background: url(../img/channel-block5-logo.png) no-repeat left top;
-  background-size: 730px;
+  background-size: 790px;
   overflow: hidden;
 }
 .channel-block5-ul li {
-  width: 175px;
+  width: 187px;
   float: left;
 }
 .channel-block5-ul li p {
@@ -3849,9 +3857,6 @@ input[type="color"],
 .sell .channel-block5 {
   background: #f6f6f6;
   height: 290px;
-}
-.sell .channel-block5 .channel-block5-ul {
-  background: url(../img/gray-logo.png) no-repeat left top;
 }
 .sell .wl-banner .wl-big-events.channel-baner-title {
   background: url(../img/sell-channel.png) no-repeat left center;
