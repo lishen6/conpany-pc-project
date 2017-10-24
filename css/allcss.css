@@ -3533,6 +3533,7 @@ input[type="color"],
   background: #f6f6f6 url(../img/headteach57.png) no-repeat left bottom;
   background-size: 100%;
   padding-top: 62px;
+  position: relative;
 }
 .headtech4 .headtech4-title {
   width: 300px;
@@ -3546,6 +3547,44 @@ input[type="color"],
   background: #f6f6f6;
   font-size: 30px;
   color: #333;
+}
+.headtech4 .swiper-end-prev {
+  width: 46px;
+  height: 46px;
+  background: url(../img/turn-left.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -495px;
+  margin-top: -24px;
+  z-index: 99;
+  cursor: pointer;
+}
+.headtech4 .swiper-end-next {
+  width: 46px;
+  height: 46px;
+  background: url(../img/turn-right.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  margin-right: -495px;
+  margin-top: -24px;
+  z-index: 99;
+  cursor: pointer;
+}
+.headtech4 .swiper-end-next.swiper-button-disabled {
+  opacity: 1;
+  background: url(../img/turn-right-disabled.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: default;
+}
+.headtech4 .swiper-end-prev.swiper-button-disabled {
+  opacity: 1;
+  background: url(../img/turn-left-disabled.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: default;
 }
 .headtech4 .headtech4-ul {
   width: 800px;

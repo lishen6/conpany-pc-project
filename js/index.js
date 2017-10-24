@@ -32,6 +32,14 @@ $(function(){
 		nextButton:'.swiper-honour-next',
 		spaceBetween : 15
     })
+    var mySwiper2 = new Swiper ('#swiper-end', {
+        pagination : '#pagination2',
+        paginationClickable :true,
+        autoplay: 5000,
+        prevButton:'.swiper-end-prev',
+        nextButton:'.swiper-end-next',
+        spaceBetween : 15
+    })
 	$(".pagationBox img").on("click",function(){ //点击缩略图控制swiper的显示
 		var _index = $(this).index();
 		mySwiper1.slideTo(_index, 300, false);//切换到第一个slide，速度为300毫秒
